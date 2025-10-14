@@ -1,0 +1,3248 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title>
+   Leonardo Online
+  </title>
+<link href="../static/LeonardoHTML/css/ujo6sza.css" rel="stylesheet"/>
+<!-- fuer myriad and shin-go Adobe Project 'Leonardo': https://fonts.adobe.com/fonts/a-otf-ud-shin-go-pr6n -->
+<script src="../static/LeonardoHTML/js/jquery-3.6.0.min.js">
+</script>
+<script src="../static/LeonardoHTML/js/jquery.tabSlideOut.js">
+</script>
+<script src="../static/LeonardoHTML/js/mainTabSlider.js">
+</script>
+<script src="../static/LeonardoHTML/js/leonardo.js">
+</script>
+<link href="../static/LeonardoHTML/css/jquery.tabSlideOut.css" rel="stylesheet"/>
+<link href="../static/LeonardoHTML/css/flexslider.css" rel="stylesheet" type="text/css"/>
+<link href="../static/LeonardoHTML/bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="../static/LeonardoHTML/css/leonardo.css" rel="stylesheet" type="text/css"/>
+<script src="../static/LeonardoHTML/bootstrap-4.4.1-dist/js/bootstrap.bundle.js">
+</script>
+<script src="../static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.js">
+</script>
+<link rel="/static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.css"/>
+</head>
+<body id="MainPage" lang="de-DE">
+<div class="leo_container">
+<!-- show_menu 0 100 100 100  -->
+<div class="leo_header">
+<ul class="leo_main_nav">
+<li>
+<a href="/en/index.html">
+       Home
+      </a>
+</li>
+<li>
+<a href="/en/overview.html">
+       Tour
+      </a>
+</li>
+<li>
+<a href="/en/bookoverview.html">
+       Leonardos's books
+      </a>
+</li>
+<li>
+<a href="/en/about.html">
+       The project
+      </a>
+</li>
+<li>
+<a href="/en/visit.html">
+       Visit
+      </a>
+</li>
+<li>
+<a href="/en/publications.html">
+       Publications
+      </a>
+</li>
+</ul>
+<ul class="leo_second_nav">
+
+<li>
+<span class="leo_lang">
+<a href="/de/bookoverview.html" title="Change to language: de">
+        de
+       </a>
+</span>
+<span class="leo_lang leo_lang_active">
+<a href="/en/bookoverview.html" title="Change to language: en">
+        en
+       </a>
+</span>
+</li>
+<!--<li><a>DE</a>|<a>EN</a></li>-->
+</ul>
+</div>
+<div class="standard_bg leo_main">
+<div class="leo_main">
+<div class="leo_left_column">
+<div class="leo_logo">
+<img src="../static/LeonardoHTML/images/LeonardosIntelKosmos-LOGO.png" width="186"/>
+</div>
+</div>
+<div class="leo_main_text_no_right">
+<div style="padding-bottom: 3em;">
+<h1>
+        Leonardo's Berlin Library
+        <a class="btn btn-secondary" href="/en/bookoverview_all.html" style="font-size: 10px; color: #463320; background-color: #ece7db; border-color: #ece7db;">
+         show all exhibits
+        </a>
+</h1>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/prologue-old-knowledge-and-new-technology.html">
+        1.
+                                    Prologue: Old Knowledge and New Technology
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-1.html">
+        Leonardo's
+                                    Berlin Library: Section 1
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authoraesop-and-francesco-del-tuppodivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itaesopus-moralisatus-pdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itnaples-france.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/book-9-9-ptolemy-claudius-liber-de-optica-edited-and-translated-by-eugenius-14th-c.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          9.
+          <em>
+           Ptolemy, Claudius.
+          </em>
+<em>
+           Liber de optica
+          </em>
+<div>
+<p>
+            Edited and translated by Eugenius
+                                                  &lt;Panormitanus&gt;, 14th c.
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/e2/79/e279cc4a-bea7-4d51-8f76-c60c213ccf44/009_ptolemaeus-claudius_liber-de-optica_.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<em>
+           Ptolemy, Claudius.
+          </em>
+<em>
+           Liber de optica
+          </em>
+<div>
+<p>
+            Edited and translated by Eugenius
+                                                  &lt;Panormitanus&gt;, 14th c.
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authoraesop-and-francesco-del-tuppodivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itaesopus-moralisatus-pdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itnaples-france.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/book-10-10-heron-of-alexandria-liber-geoponicus-16th-c.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          10.
+          <em>
+           Heron of Alexandria.
+          </em>
+<em>
+           Liber geoponicus
+          </em>
+<div>
+           16th c.
+          </div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/9a/0d/9a0df656-31be-4293-bc57-1dba38a99e76/010_heron-von-alexandrien-liber-geoponicus.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<em>
+           Heron of Alexandria.
+          </em>
+<em>
+           Liber geoponicus
+          </em>
+<div>
+           16th c.
+          </div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authoraesop-and-francesco-del-tuppodivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itaesopus-moralisatus-pdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itnaples-france.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authoraesop-and-francesco-del-tuppodivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itaesopus-moralisatus-pdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itnaples-france.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          11.
+          <div class="leo_title_author">
+           Aesop and Francesco del Tuppo.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG" lang="it-IT">
+<em>
+             Aesopus moralisatus
+            </em>
+</p>
+           Naples:
+                                                Francesco del Tuppo, 1485
+          </div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/f9/2c/f92cfa6b-8e5d-4f93-9768-9bc853e9d6f7/011_aesop-und-francesco-del-tuppo-1485-aesopus-moralisatus.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Aesop and Francesco del
+                                                Tuppo.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG" lang="it-IT">
+<em>
+             Aesopus moralisatus
+            </em>
+</p>
+           Naples:
+                                                Francesco del Tuppo, 1485
+          </div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authoreucliddivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itelementa-geometriae-pdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itedited-by-johannes-campanus-venice-e.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authoreucliddivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itelementa-geometriae-pdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itedited-by-johannes-campanus-venice-e.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          12.
+          <div class="leo_title_author">
+           Euclid. Elementa geometriae
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG" lang="it-IT">
+            Edited by Johannes Campanus. Venice:
+                                                  Erhard Ratdolt, 1482
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/dd/9f/dd9fb391-db9a-44da-bccd-e5db3fcbcc4a/012_euklid-1482-elementa-geometriae.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Euclid. Elementa
+                                                geometriae
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG" lang="it-IT">
+            Edited by Johannes Campanus. Venice:
+                                                  Erhard Ratdolt, 1482
+           </p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/roots.html">
+        2. Roots
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-2.html">
+        Leonardo's
+                                    Berlin Library: Section 2
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authortartaglia-niccolodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dgeneral-trattato-di-numeri-et-misurepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-curtio-troiano-1556pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authortartaglia-niccolodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dgeneral-trattato-di-numeri-et-misurepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-curtio-troiano-1556pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          15.
+          <div class="leo_title_author">
+           Tartaglia, Niccolò.
+           <em>
+            Biblia
+           </em>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Niccolò Malermi. Venice: Wendelin von Speyer,
+                                                  1471
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/4b/89/4b896955-9376-4617-9b08-4c84206fc34c/015_biblia-1471-ubersetzung-niccolo-malermi.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Tartaglia, Niccolò.
+           <em>
+            Biblia
+           </em>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Niccolò Malermi. Venice: Wendelin von Speyer,
+                                                  1471
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authortartaglia-niccolodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dgeneral-trattato-di-numeri-et-misurepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-curtio-troiano-1556pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authortartaglia-niccolodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dgeneral-trattato-di-numeri-et-misurepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-curtio-troiano-1556pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          16.
+          <div class="leo_title_author">
+           Tartaglia, Niccolò. General trattato di numeri, et
+                                                misure
+          </div>
+<div class="leo_title_title">
+           Venice: Curtio Troiano,
+           <span lang="en-US">
+            1556
+           </span>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/93/0a/930a5976-9d56-472a-9d54-5466f0948de5/016_02010102_tartaglia_1556_general_trattato_25v-26r_0066.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Tartaglia, Niccolò.
+                                                General trattato di numeri, et misure
+          </div>
+<div class="leo_title_title">
+           Venice: Curtio Troiano,
+           <span lang="en-US">
+            1556
+           </span>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/crowns-florence.html">
+        3. The Crowns of Florence
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-3.html">
+        Leonardo's
+                                    Berlin Library: Section 3
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authordante-alighieridivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dabakus-suanpanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_danfang-1960er-jahre-pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authordante-alighieridivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dabakus-suanpanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_danfang-1960er-jahre-pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          21.
+          <div class="leo_title_author">
+           Dante Alighieri.
+           <em>
+            La Comedia
+           </em>
+</div>
+<div class="leo_title_title">
+           Commented by Christophorus
+                                                Landinus. Brescia: Boninus de Boninis,
+           <span lang="en-US">
+            1487
+           </span>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/f0/e9/f0e92595-6276-498f-9f54-c23561335038/021_dante-alighieri-1487-la-comedia.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Dante Alighieri.
+           <em>
+            La
+                                                  Comedia
+           </em>
+</div>
+<div class="leo_title_title">
+           Commented by Christophorus
+                                                Landinus. Brescia: Boninus de Boninis,
+           <span lang="en-US">
+            1487
+           </span>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorboccaccio-giovannidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddecameronpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d1370-pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorboccaccio-giovannidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddecameronpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d1370-pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          22.
+          <div class="leo_title_author">
+           Boccaccio, Giovanni.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+            Decameron
+           </p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            1370
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/e0/13/e01345de-e229-4e2d-af31-66b0f00e1b1d/022_03010101_boccaccio_decameron_47v-48r_sbb.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Boccaccio, Giovanni.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+            Decameron
+           </p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            1370
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorpetrarca-francescodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dtrionfi-e-sonettipdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dkommentiert-von-bernardus-ilicinus-und-franciscus-p.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorpetrarca-francescodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dtrionfi-e-sonettipdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dkommentiert-von-bernardus-ilicinus-und-franciscus-p.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          23.
+          <div class="leo_title_author">
+           Petrarca, Francesco.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Trionfi e
+                                                  sonetti
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Commented
+                                                  by Bernardus Ilicinus and Franciscus Philelphus.
+                                                  Milan: Ulrich Scinzenzeller, 1494
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/03/de/03def999-cd66-4efb-b0dc-91bc26e97ab9/023_petrarca-francesco-1494-trionfi-e-sonetti.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Petrarca, Francesco.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Trionfi e
+                                                  sonetti
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Commented
+                                                  by Bernardus Ilicinus and Franciscus Philelphus.
+                                                  Milan: Ulrich Scinzenzeller, 1494
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/ancient-sources-and-new-experiences.html">
+        4. Ancient
+                                    Sources and New Experiences
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-4.html">
+        Leonardo's
+                                    Berlin Library: Section 4
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authorvitruvius-polliodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dansicht-der-kuppel-des-doms-santa-maria-del-fiore-14201436pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dflorenz-2003.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorvitruvius-polliodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dansicht-der-kuppel-des-doms-santa-maria-del-fiore-14201436pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dflorenz-2003.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          31.
+          <div class="leo_title_author">
+           Vitruvius, Pollio.
+           <em>
+            De architectura
+           </em>
+</div>
+<div class="leo_title_title">
+           15th c.
+          </div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/60/ef/60efed20-5d74-4106-b4bb-db28d11e2fc0/031_vitruvius-pollio-de-architectura.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Vitruvius, Pollio.
+           <em>
+            De
+                                                  architectura
+           </em>
+</div>
+<div class="leo_title_title">
+           15th c.
+          </div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authoralberti-leon-battistadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dspan-langde-dede-picturaspanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dspan-langde-debasel-bartholomaus-west.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authoralberti-leon-battistadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dspan-langde-dede-picturaspanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dspan-langde-debasel-bartholomaus-west.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          32.
+          <div class="leo_title_author">
+           Alberti, Leon Battista.
+           <em>
+            De pictura
+           </em>
+</div>
+<div class="leo_title_title">
+           Basel: Bartholomäus
+                                                Westheimer, 1540
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/14/7d/147d3d3d-0c24-4551-94e3-125d15aef171/032_alberti-leon-battista-de-pictura-praestantissimae-artis-et-nunquam-satis-laudatae.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Alberti, Leon Battista.
+           <em>
+            De pictura
+           </em>
+</div>
+<div class="leo_title_title">
+           Basel: Bartholomäus
+                                                Westheimer, 1540
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/crowns-florence.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/crowns-florence.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          33.
+          <div class="leo_title_author">
+           Alberti, Leon Battista.
+           <em>
+            De re
+                                                  aedificatoria
+           </em>
+</div>
+<div class="leo_title_title">
+           Florence: Nicolaus
+                                                Laurentii, 1485
+          </div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/b2/74/b27490de-b563-4ae1-bf62-c56bcd54b1b8/033_alberti-leon-battista-de-re-aedificatoria.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Alberti, Leon Battista.
+           <em>
+            De re aedificatoria
+           </em>
+</div>
+<div class="leo_title_title">
+           Florence: Nicolaus
+                                                Laurentii, 1485
+          </div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authoralberti-leon-battistadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dspan-langde-dede-picturaspanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dspan-langde-debasel-bartholomaus-west.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authoralberti-leon-battistadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dspan-langde-dede-picturaspanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dspan-langde-debasel-bartholomaus-west.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          34.
+          <div class="leo_title_author">
+           lberti, Leon Battista, Aesop, and Aulus Gellius.
+                                                Vita Aesopi. Aesop: Fabulae. Leon Battista Alberti:
+                                                Apologi. Aulus Gellius:
+           <span lang="fr-FR">
+            Noctes
+                                                  Atticae
+           </span>
+</div>
+<div class="leo_title_title">
+<span lang="pt-PT">
+            15th
+           </span>
+<span class="CharOverride-10" lang="pt-PT">
+</span>
+<span lang="pt-PT">
+            c.
+           </span>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/ea/5d/ea5d3b10-6aaf-460a-8110-aa76beeeba2f/034_alberti-leon-battista-aesop-und-aulus-gellius.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           lberti, Leon Battista,
+                                                Aesop, and Aulus Gellius. Vita Aesopi. Aesop:
+                                                Fabulae. Leon Battista Alberti: Apologi. Aulus
+                                                Gellius:
+           <span lang="fr-FR">
+            Noctes
+                                                Atticae
+           </span>
+</div>
+<div class="leo_title_title">
+<span lang="pt-PT">
+            15th
+           </span>
+<span class="CharOverride-10" lang="pt-PT">
+</span>
+<span lang="pt-PT">
+            c.
+           </span>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorvalla-giorgiodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-expetendis-et-fugiendis-rebus-opuspdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-aldus-manutius-1501pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorvalla-giorgiodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-expetendis-et-fugiendis-rebus-opuspdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-aldus-manutius-1501pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          35.
+          <div class="leo_title_author">
+           Valla, Giorgio.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De
+                                                  expetendis et fugiendis rebus opus
+            </em>
+</p>
+           Venice: Aldus Manutius, 1501
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/d0/f3/d0f34267-3729-4627-81dc-065cb518abbe/035_valla-giorgio-de-expetendis-et-fugiendis-rebus-opus.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Valla, Giorgio.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De
+                                                  expetendis et fugiendis rebus opus
+            </em>
+</p>
+           Venice: Aldus Manutius, 1501
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorcrescentiis-petrus-dedivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-agriculturapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dbasel-henricus-petri-1538pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorcrescentiis-petrus-dedivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-agriculturapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dbasel-henricus-petri-1538pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          36.
+          <div class="leo_title_author">
+           Crescentiis, Petrus de.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De
+                                                  agricultura
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Basel: Henricus Petri,
+            </span>
+            1538
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/41/f6/41f6e8c0-8d7a-41a8-ba11-872f04d65918/036_04010106_crescentiis_1538_de_agricultura_s30-s31_0079.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Crescentiis, Petrus
+                                                de.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De
+                                                  agricultura
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Basel: Henricus Petri,
+            </span>
+            1538
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/cultural-challenges.html">
+        5. Cultural Challenges
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-5.html">
+        Leonardo's
+                                    Berlin Library: Section 5
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authorperotti-niccolodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_drudimenta-grammaticespdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-bonetus-locatellus-1490pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorperotti-niccolodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_drudimenta-grammaticespdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-bonetus-locatellus-1490pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          42.
+          <div class="leo_title_author">
+           Perotti, Niccolò.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Rudimenta
+                                                  grammatices
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Bonetus Locatellus, 1490
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/c2/b5/c2b5526b-645b-470c-aa5a-e7de90503b1a/042_perotti-niccolo-rudimenta-grammatices.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Perotti, Niccolò.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Rudimenta
+                                                  grammatices
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Bonetus Locatellus, 1490
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorphilelphus-johannes-mariusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_depistolaepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dbasel-johann-amerbach-1486pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorphilelphus-johannes-mariusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_depistolaepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dbasel-johann-amerbach-1486pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          43.
+          <div class="leo_title_author">
+           Philelphus, Johannes Marius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Epistolae
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Basel:
+                                                  Johann Amerbach, 1486
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/89/f7/89f74dd5-a44d-4f26-a480-b8d06b5fca47/043_philelphus-johannes-marius-epistolae.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Philelphus, Johannes
+                                                Marius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Epistolae
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Basel:
+                                                  Johann Amerbach, 1486
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorpoggio-bracciolini-gian-francescodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dfacetiarum-liberpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-thomas-de-blavis-1487pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorpoggio-bracciolini-gian-francescodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dfacetiarum-liberpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-thomas-de-blavis-1487pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          44.
+          <div class="leo_title_author">
+           Poggio Bracciolini, Gian Francesco.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Facetiarum liber
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Thomas de Blavis, 1487
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/5f/39/5f39f5d9-8f84-4340-acc3-a9e723217218/044_poggio-bracciolini-gian-francesco-facetiarum-liber.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Poggio Bracciolini, Gian
+                                                Francesco.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Facetiarum liber
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Thomas de Blavis, 1487
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorghiberti-bonaccorsodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dzibaldonepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d15-jh-pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorghiberti-bonaccorsodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dzibaldonepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d15-jh-pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          45.
+          <div class="leo_title_author">
+           Ghiberti, Bonaccorso.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Zibaldone
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            15th c.
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/9f/29/9f29862d-ae14-4109-bc88-69b011ff7dbb/045_05010102_49_ghiberti_zibaldone_198v_113333_00001z_facsimili_del_museo_galileo.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Ghiberti,
+                                                Bonaccorso.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Zibaldone
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            15th c.
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorbrant-sebastiandivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dstultifera-navis-narrenschiffpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-jakob-locher-lyon-jacques-.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorbrant-sebastiandivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dstultifera-navis-narrenschiffpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-jakob-locher-lyon-jacques-.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          46.
+          <div class="leo_title_author">
+           Brant, Sebastian.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Stultifera navis
+            </em>
+            [
+            <em>
+             Ship of
+                                                  fools
+            </em>
+            ]
+           </p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Jakob Locher. Lyon: Jacques Sacon, 1488
+                                                  [1498]
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/fc/30/fc30fd9f-2f52-4058-8de1-1a62be5de05f/046_brant-sebastian-stultifera-navis-narrenschiff.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Brant, Sebastian.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Stultifera navis
+            </em>
+            [
+            <em>
+             Ship of
+                                                  fools
+            </em>
+            ]
+           </p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Jakob Locher. Lyon: Jacques Sacon, 1488
+                                                  [1498]
+           </p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/world-history-and-natural-history.html">
+        6. World
+                                    History and Natural History
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-6.html">
+        Leonardo's
+                                    Berlin Library: Section 6
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authorovidius-naso-publiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dovidio-methamorphoseos-vulgarepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-giovanni-bonsignori-.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorovidius-naso-publiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dovidio-methamorphoseos-vulgarepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-giovanni-bonsignori-.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          49.
+          <div class="leo_title_author">
+           Ovidius Naso, Publius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Ovidio
+                                                  methamorphoseos vulgare
+            </em>
+</p>
+           Translated by
+                                                Giovanni Bonsignori. Venice: Giovanni Rosso for
+                                                Lucantonio Giunta, 1497
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/04/45/04457855-bcd9-4118-b3b2-abc2047fc0fb/049_ovidius-naso-publius-ovidio-methamorphoseos-vulgare.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Ovidius Naso,
+                                                Publius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Ovidio
+                                                  methamorphoseos vulgare
+            </em>
+</p>
+           Translated by
+                                                Giovanni Bonsignori. Venice: Giovanni Rosso for
+                                                Lucantonio Giunta, 1497
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorlucretius-carus-titusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-rerum-naturapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dherausgegeben-von-hieronymus-avantiuspdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorlucretius-carus-titusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-rerum-naturapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dherausgegeben-von-hieronymus-avantiuspdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          50.
+          <div class="leo_title_author">
+           Lucretius Carus, Titus.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De rerum
+                                                  natura
+            </em>
+</p>
+           Edited by Hieronymus Avantius.
+                                                Venice: Aldus Manutius,
+           <span lang="en-US">
+            1500
+           </span>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/76/b5/76b5c741-d1ea-42e2-bdc3-618fc4acf826/050_lucretius-carus-titus-de-rerum-natura.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Lucretius Carus,
+                                                Titus.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De rerum
+                                                  natura
+            </em>
+</p>
+           Edited by Hieronymus Avantius.
+                                                Venice: Aldus Manutius,
+           <span lang="en-US">
+            1500
+           </span>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorlivius-titusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddeche-di-tito-livio-vulgare-historiate-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-giovanni-rosso-fur-lucanton.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorlivius-titusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddeche-di-tito-livio-vulgare-historiate-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-giovanni-rosso-fur-lucanton.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          51.
+          <div class="leo_title_author">
+           Livius, Titus.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Deche di
+                                                  Tito Livio vulgare historiate
+            </em>
+</p>
+           Venice:
+                                                Giovanni Rosso for Lucantonio Giunta, 1493
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/32/f9/32f99149-4640-4e72-a590-840680fe342f/051_livius-titus-deche-di-tito-livio-vulgare-historiate.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Livius, Titus.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Deche di
+                                                  Tito Livio vulgare historiate
+            </em>
+</p>
+           Venice:
+                                                Giovanni Rosso for Lucantonio Giunta, 1493
+          </div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorplinius-secundus-gaiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dhistoria-naturalispdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-christophorus-landinus-pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorplinius-secundus-gaiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dhistoria-naturalispdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-christophorus-landinus-pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          52.
+          <div class="leo_title_author">
+           Plinius Secundus, Gaius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Historia
+                                                  naturalis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Christophorus Landinus. Venice: Filippo di
+                                                  Pietro, 1481
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/4a/32/4a3285f7-fa9e-464e-abfc-2daa9ce7b637/052_plinius-secundus-gaius-historia-naturalis.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Plinius Secundus,
+                                                Gaius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Historia
+                                                  naturalis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Christophorus Landinus. Venice: Filippo di
+                                                  Pietro, 1481
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorforesti-giacomo-filippodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dsupplementum-chronicarum-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-bernardinus-benalius-1486pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorforesti-giacomo-filippodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dsupplementum-chronicarum-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-bernardinus-benalius-1486pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          53.
+          <div class="leo_title_author">
+           Foresti, Giacomo Filippo.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Supplementum chronicarum
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Venice: Bernardinus Benalius,
+                                                  1486
+            </span>
+</p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/a2/72/a272aa99-81c9-443f-80d3-d67065ccb9fe/053_foresti-giacomo-filippo-supplementum-chronicarum.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Foresti, Giacomo
+                                                Filippo.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Supplementum chronicarum
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Venice: Bernardinus Benalius,
+                                                  1486
+            </span>
+</p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorschedel-hartmanndivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dliber-chronicarumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dnurnberg-anton-koberger-1493pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorschedel-hartmanndivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dliber-chronicarumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dnurnberg-anton-koberger-1493pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          54.
+          <div class="leo_title_author">
+           Schedel, Hartmann.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Liber
+                                                  chronicarum
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Nuremberg
+            </span>
+            : Anton Koberger,
+                                                  1493
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/2e/94/2e947272-6b68-4752-badf-2426ca876059/054_schedel-hartmann-liber-chronicarum.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Schedel, Hartmann.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Liber
+                                                  chronicarum
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Nuremberg
+            </span>
+            : Anton Koberger,
+                                                  1493
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/challenges-technology.html">
+        7. Challenges of
+                                    Technology
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-7.html">
+        Leonardo's
+                                    Berlin Library: Section 7
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authorkyeser-konraddivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dspan-langde-debellifortisspanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dspan-langde-deca-1430-spanpdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorkyeser-konraddivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dspan-langde-debellifortisspanpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dspan-langde-deca-1430-spanpdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          62.
+          <div class="leo_title_author">
+           Kyeser, Konrad.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Bellifortis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            ca.
+                                                  1430
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/b5/bd/b5bd9f65-bd33-4ce8-a0d0-9f758484da7e/062_kyeser-konrad-bellifortis.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Kyeser, Konrad.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Bellifortis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            ca.
+                                                  1430
+           </p>
+</div>
+</div>
+<div class="leo_book_licence">
+          Licence of the image: CC
+                                            BY-NC-SA 4.0
+         </div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorvalturius-robertusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-re-militaripdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dverona-boninus-de-boninis-1483pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorvalturius-robertusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-re-militaripdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dverona-boninus-de-boninis-1483pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          63.
+          <div class="leo_title_author">
+           Valturius, Robertus.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De re
+                                                  militari
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Verona:
+                                                  Boninus de Boninis, 1483
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/33/50/33504c56-cc25-4da1-a623-a861a9cac0ff/063_valturius-robertus-de-re-militari.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Valturius, Robertus.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De re
+                                                  militari
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Verona:
+                                                  Boninus de Boninis, 1483
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authortaccola-mariano-di-jacopodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-ingeneis-iiiiv-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d14321433-pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authortaccola-mariano-di-jacopodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-ingeneis-iiiiv-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d14321433-pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          64.
+          <div class="leo_title_author">
+           Taccola (Mariano di Jacopo).
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De
+                                                  ingeneis III–IV
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            1432–1433
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/92/a7/92a71bef-e1e1-4f7d-b447-f38611c6e55b/064_taccola-de-ingeneis.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Taccola (Mariano di
+                                                Jacopo).
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De
+                                                  ingeneis III–IV
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            1432–1433
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authortaccola-mariano-di-jacopo-und-francesco-di-giorgio-martinidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddisegni-di-macchine-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dca-1480-.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authortaccola-mariano-di-jacopo-und-francesco-di-giorgio-martinidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddisegni-di-macchine-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dca-1480-.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          65.
+          <div class="leo_title_author">
+           Taccola (Mariano di Jacopo) and Francesco di
+                                                Giorgio Martini.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Disegni
+                                                  di macchine
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            ca.
+                                                  1480
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/da/e4/dae4bd89-e9bf-421f-b5a2-c68d0918f259/065_taccola-disegni-di-macchine.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Taccola (Mariano di
+                                                Jacopo) and Francesco di Giorgio Martini.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Disegni
+                                                  di macchine
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            ca.
+                                                  1480
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authormartini-francesco-di-giorgiodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dtrattato-di-architettura-e-macchinepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d14781481-pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authormartini-francesco-di-giorgiodivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dtrattato-di-architettura-e-macchinepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d14781481-pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          66.
+          <div class="leo_title_author">
+           Martini, Francesco di Giorgio.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Trattato
+                                                  di architettura e macchine
+            </em>
+</p>
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            1478–1481
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/a2/8d/a28d43df-0e96-4248-8492-28a712f895cd/066_07010104_d_di_gorgio_trattato_di_architettura_museogalileo_59.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Martini, Francesco di
+                                                Giorgio.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Trattato
+                                                  di architettura e macchine
+            </em>
+</p>
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            1478–1481
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/science-art-art-science.html">
+        8. Science as Art, Art as
+                                    Science
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-8.html">
+        Leonardo's
+                                    Berlin Library: Section 8
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authorarchimedes-johannes-campanus-und-severinus-boethiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dtetragonismuspdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dherausgegeben-von-luca.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorarchimedes-johannes-campanus-und-severinus-boethiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dtetragonismuspdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dherausgegeben-von-luca.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          70.
+          <div class="leo_title_author">
+           Archimedes, Johannes Campanus, and Severinus
+                                                Boethius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Tetragonismus
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Edited by
+                                                  Luca Gaurico. Venice: Giovanni Battista Sessa,
+                                                  1503
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/26/26/262639a6-58fb-45c2-8a54-0b4cbff0328a/070_archimedes-johannes-campanus-und-severinus-boethius-tetragonismus.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Archimedes, Johannes
+                                                Campanus, and Severinus Boethius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Tetragonismus
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Edited by
+                                                  Luca Gaurico. Venice: Giovanni Battista Sessa,
+                                                  1503
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authoreuklid-jordanus-nemorarius-gerardus-de-brussel-archimedes-johannes-de-tinemue-theodosius-geber-und-alfraganus-et-aldivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dmiscellaneapdivdiv-classleo_title_dat.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authoreuklid-jordanus-nemorarius-gerardus-de-brussel-archimedes-johannes-de-tinemue-theodosius-geber-und-alfraganus-et-aldivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dmiscellaneapdivdiv-classleo_title_dat.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          71.
+          <div class="leo_title_author">
+           Euclid, Jordanus Nemorarius, Gerardus de Brussel,
+                                                Archimedes, Johannes de Tinemue, Theodosius, Geber,
+                                                and Alfraganus et al..
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Miscellanea
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            13th c.
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/f6/af/f6af3275-29e1-4862-8497-f734a1f4fe0b/071_euklid-jordanus-miscellanea.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Euclid, Jordanus
+                                                Nemorarius, Gerardus de Brussel, Archimedes,
+                                                Johannes de Tinemue, Theodosius, Geber, and
+                                                Alfraganus et al..
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Miscellanea
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            13th c.
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorpeckham-johannesdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dprospectiva-communispdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dherausgegeben-von-facius-cardanus-mailand-petrus-d.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorpeckham-johannesdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dprospectiva-communispdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dherausgegeben-von-facius-cardanus-mailand-petrus-d.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          72.
+          <div class="leo_title_author">
+           Peckham, Johannes.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Prospectiva communis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Edited by
+                                                  Facius Cardanus. Milan: Petrus de Corneno,
+                                                  1482
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/29/1b/291bef1f-50ac-41db-a8ed-e2e87339ff36/072_peckham-johannes-prospectiva-communis.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Peckham, Johannes.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Prospectiva communis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Edited by
+                                                  Facius Cardanus. Milan: Petrus de Corneno,
+                                                  1482
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorarchimedes-und-piero-della-francescadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_doperepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d14681492pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorarchimedes-und-piero-della-francescadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_doperepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d14681492pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          73.
+          <div class="leo_title_author">
+           Archimedes and Piero della Francesca.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Opere
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="TEDESCO_Catalogo_Dati_Tec_D">
+            1468–1492
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/2e/0b/2e0b031b-37d4-4c18-a075-15cf37310a40/073_archimedes-und-piero-della-francesca-opere.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Archimedes and Piero della
+                                                Francesca.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Opere
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="TEDESCO_Catalogo_Dati_Tec_D">
+            1468–1492
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorpacioli-lucadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dsumma-de-arithmetica-geometria-proportioni-et-proportionalitapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-pagan.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorpacioli-lucadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dsumma-de-arithmetica-geometria-proportioni-et-proportionalitapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-pagan.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          74.
+          <div class="leo_title_author">
+           Pacioli, Luca.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Summa de
+                                                  arithmetica, geometria, proportioni et
+                                                  proportionalita
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Paganinus de Paganinis, 1494
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/13/70/137051d6-847c-4c19-8d75-7fb0fd077223/074_pacioli-luca-summa-de-arithmetica-geometria-proportioni-et-proportionalita.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Pacioli, Luca.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Summa de
+                                                  arithmetica, geometria, proportioni et
+                                                  proportionalita
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Paganinus de Paganinis, 1494
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorpacioli-lucadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddivina-proportione-opera-a-tutti-glingegni-perspicaci-e-curiosi-necessariapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorpacioli-lucadivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_ddivina-proportione-opera-a-tutti-glingegni-perspicaci-e-curiosi-necessariapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          75.
+          <div class="leo_title_author">
+           Pacioli, Luca.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Divina
+                                                  proportione: Opera a tutti glingegni perspicaci e
+                                                  curiosi necessaria
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Paganini de Paganinis, 1509
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/95/9d/959db2d6-9718-4413-a2f4-8c4a3348fedb/075_pacioli-luca-divina-proportione.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Pacioli, Luca.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Divina
+                                                  proportione: Opera a tutti glingegni perspicaci e
+                                                  curiosi necessaria
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Paganini de Paganinis, 1509
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authordurer-albrechtdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dunderweysung-der-messung-mit-dem-zirckel-und-richtscheyt-in-linien-ebenen-unnd-gantzen-corporenpdivdiv-classleo_title_dateplacep-classtede.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authordurer-albrechtdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dunderweysung-der-messung-mit-dem-zirckel-und-richtscheyt-in-linien-ebenen-unnd-gantzen-corporenpdivdiv-classleo_title_dateplacep-classtede.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          76.
+          <div class="leo_title_author">
+           Dürer, Albrecht.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Underweysung der Messung, mit dem Zirckel und
+                                                  Richtscheyt, in Linien, Ebenen unnd gantzen
+                                                  corporen
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Nuremberg: Hieronymus Andreae,
+            </span>
+            1525
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/19/83/1983eb5c-1d2a-42e4-a46b-425e5eefe436/076_durer-albrecht-underweysung-der-messung.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Dürer, Albrecht.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Underweysung der Messung, mit dem Zirckel und
+                                                  Richtscheyt, in Linien, Ebenen unnd gantzen
+                                                  corporen
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Nuremberg: Hieronymus Andreae,
+            </span>
+            1525
+           </p>
+</div>
+</div>
+<div class="leo_book_licence">
+          Licence of the image: CC
+                                            BY-NC-SA 4.0
+         </div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorketham-johannes-dedivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dfasciculus-medicinae-similitudo-complexionum-amp-elementorumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorketham-johannes-dedivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dfasciculus-medicinae-similitudo-complexionum-amp-elementorumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          77.
+          <div class="leo_title_author">
+           Ketham, Johannes de.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Fasciculus medicinae. Similitudo complexionum
+                                                  &amp; elementorum
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Johannes and Gregorius de Gregoriis, 1500
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/6a/6d/6a6dafb2-c8e6-43ee-a42d-b6a82b71170e/077_ketham-johannes-de-fasciculus-medicinae.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Ketham, Johannes de.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Fasciculus medicinae. Similitudo complexionum
+                                                  &amp; elementorum
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Johannes and Gregorius de Gregoriis, 1500
+           </p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/world-great-and-small.html">
+        9. The World, Great and
+                                    Small
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-9.html">
+        Leonardo's
+                                    Berlin Library: Section 9
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authorstrabondivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-situ-orbispdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-guarinus-veronensis-und-gregorius-de-tipherno-pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorstrabondivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dde-situ-orbispdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dubersetzung-von-guarinus-veronensis-und-gregorius-de-tipherno-pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          89.
+          <div class="leo_title_author">
+           Strabo.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De situ
+                                                  orbis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Guarinus Veronensis and Gregorius de Tipherno
+                                                  Venice: Philippo Pincio, 1510
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/36/7b/367b813f-24a6-4372-bcd1-43648ea427d4/089_09010102_strabo_mancinelli_1510_de_situ_orbis_titelblatt_0004.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Strabo.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             De situ
+                                                  orbis
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Translated
+                                                  by Guarinus Veronensis and Gregorius de Tipherno
+                                                  Venice: Philippo Pincio, 1510
+           </p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorptolemy-claudiusdivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itliber-de-opticapdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itedited-and-translated-by-eugeni.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorptolemy-claudiusdivdiv-classleo_title_titlep-classinglese_catalogo_titolo_eng-langit-itliber-de-opticapdivdiv-classleo_title_dateplacep-classinglese_catalogo_dati_tec_eng-langit-itedited-and-translated-by-eugeni.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          90.
+          <div class="leo_title_author">
+           Ptolemy, Claudius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Cosmographia
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Edited by
+                                                  Nicolaus Germanus and translated by Jacobus
+                                                  Angelus.
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/d4/25/d425bf55-e1b0-47b2-b6f2-77895ed55eab/090_09010103_ptolemaeus_cosmographia_sexta_europe_tabula_blb_karlsruhe_1.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Ptolemy, Claudius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Cosmographia
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Edited by
+                                                  Nicolaus Germanus and translated by Jacobus
+                                                  Angelus.
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authoralexander-aphrodisiensisdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dalexandri-aphrodisiensis-maximi-peripatetici-in-quatuor-libros-brmeteorologicorum-aristotelis-commentatio-lucidissima-bralexandr.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authoralexander-aphrodisiensisdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dalexandri-aphrodisiensis-maximi-peripatetici-in-quatuor-libros-brmeteorologicorum-aristotelis-commentatio-lucidissima-bralexandr.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          91.
+          <div class="leo_title_author">
+           Alexander &lt;aphrodisiensis&gt;.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+            Alexandri
+                                                  Aphrodisiensis maximi peripatetici, In quatuor
+                                                  libros
+            <br/>
+            meteorologicorum Aristotelis,
+                                                  commentatio lucidissima,
+            <br/>
+            Alexandro
+                                                  Piccolomineo interprete
+            <span lang="fr-FR">
+</span>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="fr-FR">
+             Venice: Scotus, 1548
+            </span>
+</p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/13/07/1307f1a1-be7d-4ee8-be7c-489e56808463/091_alexander-aphrodisiensis.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Alexander
+                                                &lt;aphrodisiensis&gt;.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+            Alexandri
+                                                  Aphrodisiensis maximi peripatetici, In quatuor
+                                                  libros
+            <br/>
+            meteorologicorum Aristotelis,
+                                                  commentatio lucidissima,
+            <br/>
+            Alexandro
+                                                  Piccolomineo interprete
+            <span lang="fr-FR">
+</span>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="fr-FR">
+             Venice: Scotus, 1548
+            </span>
+</p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorsacrobosco-johannes-dedivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dsphaerae-mundi-compendium-foeliciter-inchoatpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-octavianus-s.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorsacrobosco-johannes-dedivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dsphaerae-mundi-compendium-foeliciter-inchoatpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-octavianus-s.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          92.
+          <div class="leo_title_author">
+           Sacrobosco, Johannes de.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Sphaerae
+                                                  mundi compendium foeliciter inchoat
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Octavianus Scotus,
+            <span lang="en-US">
+             1490
+            </span>
+</p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/9d/d3/9dd34252-c97d-4b67-9f98-bbc5c44202f9/092_09010101_sacrobosco_1490_sphaerae_mundi_a6v_0016.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Sacrobosco, Johannes
+                                                de.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Sphaerae
+                                                  mundi compendium foeliciter inchoat
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Octavianus Scotus,
+            <span lang="en-US">
+             1490
+            </span>
+</p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authordurer-albrechtdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dvier-bucher-von-menschlicher-proportionpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dnurnberg-hieronymus-andreae-1528p.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authordurer-albrechtdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dvier-bucher-von-menschlicher-proportionpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dnurnberg-hieronymus-andreae-1528p.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          93.
+          <div class="leo_title_author">
+           Dürer, Albrecht.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Vier
+                                                  B
+             <span lang="he-IL">
+              ü
+             </span>
+             cher von menschlicher
+                                                  Proportion
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Nuremberg:
+                                                  Hieronymus Andreae, 1528
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/a7/75/a775bfe0-a8fd-4905-a6a4-bc3e4cc0a277/093_durer-albrecht-vier-bucher-von-menschlicher-proportion.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Dürer, Albrecht.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Vier
+                                                  B
+             <span lang="he-IL">
+              ü
+             </span>
+             cher von menschlicher
+                                                  Proportion
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Nuremberg:
+                                                  Hieronymus Andreae, 1528
+           </p>
+</div>
+</div>
+<div class="leo_book_licence">
+          Licence of the image: CC
+                                            BY-NC-SA 4.0
+         </div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/mobility-knowledge.html">
+        10. The Mobility of
+                                    Knowledge
+       </a>
+</div>
+<div class="leo_book_overview_subtitle">
+<a href="/en/leonardos-berlin-library-section-10.html">
+        Leonardo's
+                                    Berlin Library: Section 10
+       </a>
+</div>
+<div class="leo_book_overview_row">
+<a href="/en/div-classleo_title_authorregiomontanus-johannesdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dkalendariumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-erhard-ratdolt-bernhard-maler-und-peter-losle.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorregiomontanus-johannesdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dkalendariumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dvenedig-erhard-ratdolt-bernhard-maler-und-peter-losle.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          99.
+          <div class="leo_title_author">
+           Regiomontanus, Johannes.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Kalendarium
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Erhard Ratdolt, Bernhard Maler, and Peter Löslein,
+                                                  1476
+           </p>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/17/c8/17c8df2e-8234-4eac-84d1-8cb3ba1988b1/099_regiomontanus-johannes-kalendarium.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Regiomontanus,
+                                                Johannes.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Kalendarium
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+            Venice:
+                                                  Erhard Ratdolt, Bernhard Maler, and Peter Löslein,
+                                                  1476
+           </p>
+</div>
+</div>
+</div>
+</a>
+<a href="/en/div-classleo_title_authorapian-petrus-und-rainer-gemma-frisiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dlibro-dela-cosmographiapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dantwerpen-bontius-1548pdiv.html">
+<div class="leo_book_overview_column">
+<div class="leo_thumb_buchtitel" onclick="location.href='/en/div-classleo_title_authorapian-petrus-und-rainer-gemma-frisiusdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dlibro-dela-cosmographiapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dantwerpen-bontius-1548pdiv.html';">
+<img src="../static/LeonardoHTML/images/Logo-blau.png" width="10px"/>
+          100.
+          <div class="leo_title_author">
+           Apian, Petrus and Rainer Gemma Frisius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Libro
+                                                  dela Cosmographia
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Antwerp: Bontius, 1548
+            </span>
+</p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="leo_thumb_img">
+<a href="/en/book-0-unbekannt.html">
+<img src="../media/filer_public_thumbnails/filer_public/1c/ec/1ceca9da-4abf-423a-86e6-6fa91b356b97/100_10010102_apian_frisius_1548_cosmographia_0078a.png__400x400_q85_subsampling-2.png"/>
+</a>
+</div>
+<div class="leo_thumb_caption">
+<div class="leo_title_author">
+           Apian, Petrus and Rainer
+                                                Gemma Frisius.
+          </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+             Libro
+                                                  dela Cosmographia
+            </em>
+</p>
+</div>
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">
+<span lang="en-US">
+             Antwerp: Bontius, 1548
+            </span>
+</p>
+</div>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;">
+</div>
+<div class="simple-translate-panel" style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">
+</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);">
+</p>
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="leo_book_overview_title">
+<a href="/en/epilogue-codices.html">
+        12. Epilogue: The Codices
+       </a>
+</div>
+</div>
+</div>
+<div class="leo_footer">
+<ul class="leo_footer_links">
+<li>
+<a href="/de/home.html">
+        Sitemap
+       </a>
+</li>
+<li>
+<a href="/de/impressum.html">
+        Impressum/Copyright/Privacy
+       </a>
+</li>
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+    $("a[href^=http]").click(function () {
+                if (this.href.indexOf(location.hostname) == -1) {
+                    $(this).attr({
+                        target: "_blank",
+                        title: "externer link"
+                    });
+                }
+            })
+   </script>
+</div>
+</body>
+</html>

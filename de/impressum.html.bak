@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Impressum
+  </title>
+  <link href="../../static/LeonardoHTML/css/ujo6sza.css" rel="stylesheet"/>
+  <!-- fuer myriad and shin-go Adobe Project 'Leonardo': https://fonts.adobe.com/fonts/a-otf-ud-shin-go-pr6n -->
+  <script src="../../static/LeonardoHTML/js/jquery-3.6.0.min.js">
+  </script>
+  <script src="../../static/LeonardoHTML/js/jquery.tabSlideOut.js">
+  </script>
+  <script src="../../static/LeonardoHTML/js/mainTabSlider.js">
+  </script>
+  <script src="../../static/LeonardoHTML/js/leonardo.js">
+  </script>
+  <link href="../../static/LeonardoHTML/css/jquery.tabSlideOut.css" rel="stylesheet"/>
+  <link href="../../static/LeonardoHTML/css/flexslider.css" rel="stylesheet" type="text/css"/>
+  <link href="../../static/LeonardoHTML/bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+  <link href="../../static/LeonardoHTML/css/leonardo.css" rel="stylesheet" type="text/css"/>
+  <script src="../../static/LeonardoHTML/bootstrap-4.4.1-dist/js/bootstrap.bundle.js">
+  </script>
+  <script src="../../static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.js">
+  </script>
+  <link rel="/static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.css"/>
+  <link href="../../static/LeonardoHTML/css/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="../../static/LeonardoHTML/bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+  <script src="../../static/LeonardoHTML/bootstrap-4.4.1-dist/js/bootstrap.bundle.js">
+  </script>
+ </head>
+ <body id="MainPage" lang="de-DE">
+  <div class="leo_container">
+   <!-- show_menu 0 100 100 100  -->
+   <div class="leo_header">
+    <ul class="leo_main_nav">
+     <li>
+      <a href="/de/index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="/de/rundgang.html">
+       Ausstellungsrundgang
+      </a>
+     </li>
+     <li>
+      <a href="/de/bookoverview.html">
+       Leonardos Bücher
+      </a>
+     </li>
+     <li>
+      <a href="/de/about.html">
+       Das Projekt
+      </a>
+     </li>
+     <li>
+      <a href="/de/visit.html">
+       Besuch
+      </a>
+     </li>
+     <li>
+      <a href="/de/katalog.html">
+       Publikationen
+      </a>
+     </li>
+    </ul>
+    <ul class="leo_second_nav">
+     <li>
+      <form action="/de/search.html" method="get">
+       <input name="q" size="20" type="search"/>
+      </form>
+     </li>
+     <li>
+      <span class="leo_lang leo_lang_active">
+       <a href="/de/impressum.html" title="Change to language: de">
+        de
+       </a>
+      </span>
+      <span class="leo_lang">
+       <a href="/en/impressum.html" title="Change to language: en">
+        en
+       </a>
+      </span>
+     </li>
+     <!--<li><a>DE</a>|<a>EN</a></li>-->
+    </ul>
+   </div>
+   <div class="standard_bg leo_main">
+    <div class="leo_left_column">
+     <div class="leo_logo">
+      <img src="../../static/LeonardoHTML/images/LeonardosIntelKosmos-LOGO.png" width="186"/>
+     </div>
+    </div>
+    <div class="leo_main_text">
+     <h2>
+     </h2>
+     <p>
+      Impressum, Datenschutz und Copyright
+     </p>
+     <div class="leo_main_text_content">
+      <h2>
+       Copyright und Datenschutz
+      </h2>
+      <p>
+       Alle Text und Bilder auf dieser Webseite sind urheberrchtlich geschützt
+                            und dürfen nicht vervielfältigt oder weitergeben werden. Ausnahmen sind
+                            unter den entsprechenden Abbildungen gekennzeichnet.
+      </p>
+      <p>
+       Wir bemühen uns, darum weitere Rechte für die Abbildungen und Texte zu
+                            einzuholen, und  werden dies dann entsprechend vermerken.
+      </p>
+      <p>
+       Diese Webseite benutzt Cookies und Javascript. Diese Cookies dienen
+                            ausschließlich technischen Zwecken. Tracking findet nicht statt.
+      </p>
+      <p>
+       Auf einzelnen Seite sind externe Inhalte als IFrames eingebunden, dieses
+                            werde nur nach explizer Zustimmung eingebunden. Diese Inhalte
+                                stammen  von
+       <a href="https://www.leonardodigitale.com/">
+        Leonardo
+                                digitale/eLeo
+       </a>
+       . Für diese Inhalte ist Leonardo Digitale
+                            verantwortlich und das MPIWG bzw. die MPG übernimmt hier keine
+                            Verantwortung.
+      </p>
+      <div class="field field--name-field-text field--type-text-long field--label-hidden">
+       <div class="field--item">
+        <h2>
+         Impressum
+        </h2>
+        <p>
+        </p>
+        <p>
+         Die nachstehenden Informationen enthalten die gesetzlich
+                                    vorgesehenen Pflichtangaben zur Anbieterkennzeichnung, zu den
+                                    datenschutzrechtlichen Informationspflichten sowie weitere
+                                    wichtige rechtliche Hinweise zur Internetpräsenz des
+         <span style="font-size: 11.0pt;">
+          <span style="line-height: 115%;">
+           <span style="font-family: Calibri;">
+           </span>
+          </span>
+         </span>
+         <a href="https://www.mpg.de/de" title="www.mpg.de">
+          Max-Planck-Gesellschaft
+         </a>
+         .
+        </p>
+        <p>
+         <strong>
+          Anbieter
+         </strong>
+        </p>
+        <p>
+         Anbieter dieser Internetpräsenz ist im Rechtssinne die
+                                    Max-Planck-Gesellschaft zur Förderung der Wissenschaften
+                                    e.V.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Adresse
+         </strong>
+        </p>
+        <p>
+         Max-Planck-Gesellschaft zur Foerderung der Wissenschaften e.V.,
+                                    Hofgartenstrasse 8, 80539 München, Deutschland
+         <br/>
+         Tel.: +49
+                                    89 2108 0
+         <br/>
+         Email:
+         <a href="mailto:presse@gv.mpg.de" title="presse@gv.mpg.de">
+          presse@gv.mpg.de
+         </a>
+        </p>
+        <p>
+         <a href="https://www.mpg.de/de" title="www.mpg.de">
+          www.mpg.de
+         </a>
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Vereinsregister
+         </strong>
+        </p>
+        <p>
+         Die Max-Planck-Gesellschaft ist im Vereinsregister des
+                                    Amtsgerichts Berlin-Charlottenburg unter der Registernummer VR
+                                    13378 B eingetragen.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Vertreter
+         </strong>
+        </p>
+        <p>
+         Die Max-Planck-Gesellschaft wird gesetzlich vertreten durch den
+                                    Vereinsvorstand, und dieser wiederum durch den Präsidenten,
+                                    Prof. Dr. Martin Stratmann, und den Generalsekretär, Rüdiger
+                                    Willems.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Umsatzteueridentifikationsnummer
+         </strong>
+         <span style="font-size: 13pt;">
+          <span style="line-height: 115%;">
+           <span style="font-family: Cambria;">
+            <span style="color: #4f81bd;">
+             <a id="_Toc511898069" name="_Toc511898069">
+             </a>
+            </span>
+           </span>
+          </span>
+         </span>
+        </p>
+        <p>
+         Die Umsatzsteueridentifikationsnummer der Max-Planck-Gesellschaft
+                                    lautet: DE 129517720.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Verantwortliche
+         </strong>
+        </p>
+        <p>
+         Redaktionsverantwortliche(r) für die Internetpräsenz des
+                                    Max-Planck-Institut für Wissenschaftsgeschichte im Sinne des
+                                    Presserechts: Dr. Hansjakob Ziemer, Leiter Kooperation und
+                                    Kommunikation, Max-Planck-Institut für Wissenschaftsgeschichte,
+                                    Boltzmannstr. 22, 14195 Berlin, Deutschland,
+         <a href="mailto:hjziemer@mpiwg-berlin.mpg.de" title="hjziemer@mpiwg-berlin.mpg.de">
+          hjziemer@mpiwg-berlin.mpg.de
+         </a>
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Technische(r) Verantwortliche(r)
+         </strong>
+        </p>
+        Dirk
+                                Wintergrün
+        <ul>
+        </ul>
+        <p>
+         <strong>
+          Rechtliche Hinweise zur Organisationsform
+         </strong>
+        </p>
+        <p>
+         Die Max-Planck-Gesellschaft ist eine gemeinnützige
+                                    Forschungseinrichtung, die in der Rechtsform eines eingetragenen
+                                    Vereins organisiert ist. Die Institute und Einrichtungen der
+                                    Max-Planck-Gesellschaft sind organisatorisch weitgehend
+                                    selbständig und haben in der Regel keine eigene
+                                    Rechtspersönlichkeit.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Fremdsprachige Seiten
+         </strong>
+        </p>
+        <p>
+         Soweit Teile des Internetauftritts auch in anderen Sprachen als
+                                    deutsch angeboten werden, ist dies ausschließlich ein Service
+                                    für Mitarbeiter und Gäste der Max-Planck-Gesellschaft, welche
+                                    der deutschen Sprache nicht mächtig sind.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Rechtliche Hinweise zur Haftung für eigene
+                                        Inhalte
+         </strong>
+        </p>
+        <p>
+         Die Max-Planck-Gesellschaft ist als Inhaltsanbieterin nach § 7
+                                    Abs.1 Telemediengesetz für die eigenen Inhalte, die sie zur
+                                    Nutzung bereithält, nach den allgemeinen Gesetzen
+                                    verantwortlich. Die Max-Planck-Gesellschaft ist um Richtigkeit
+                                    und Aktualität der auf dieser Internetpräsenz bereitgestellten
+                                    Informationen bemüht. Trotzdem können Fehler und Unklarheiten
+                                    nicht vollständig ausgeschlossen werden. Die
+                                    Max-Planck-Gesellschaft übernimmt deshalb keine Gewähr für die
+                                    Aktualität, Richtigkeit, Vollständigkeit oder Qualität der
+                                    bereitgestellten Informationen. Für Schäden materieller oder
+                                    immaterieller Art, die durch die Nutzung oder Nichtnutzung der
+                                    dargebotenen Informationen bzw. durch die Nutzung fehlerhafter
+                                    und unvollständiger Informationen unmittelbar oder mittelbar
+                                    verursacht werden, haftet die Max-Planck-Gesellschaft nicht,
+                                    sofern ihr nicht nachweislich vorsätzliches oder grob
+                                    fahrlässiges Verschulden zur Last fällt. Gleiches gilt für
+                                    kostenlos zum Download bereitgehaltene Software. Die
+                                    Max-Planck-Gesellschaft behält es sich vor, Teile des
+                                    Internetangebots oder das gesamte Angebot ohne gesonderte
+                                    Ankündigung zu verändern, zu ergänzen, zu löschen oder die
+                                    Veröffentlichung zeitweise oder endgültig einzustellen.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Rechtliche Hinweise zu Verknüpfungen auf externe
+                                        Seiten
+         </strong>
+        </p>
+        <p>
+         Auf dieser Internetpräsenz befinden sich Verknüpfungen zu
+                                    externen Seiten. Diese externen Links sind wie folgt
+                                    gekennzeichnet: Für die Inhalte der verlinkten externen Seiten
+                                    ist stets der jeweilige Anbieter verantwortlich. Die
+                                    Max-Planck-Gesellschaft hat bei der erstmaligen Verknüpfung den
+                                    fremden Inhalt daraufhin überprüft, ob durch ihn eine mögliche
+                                    zivilrechtliche oder strafrechtliche Verantwortlichkeit
+                                    ausgelöst wird. Eine permanente inhaltliche Kontrolle der
+                                    verknüpften externen Seiten ist jedoch ohne konkrete
+                                    Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Wenn die
+                                    Max-Planck-Gesellschaft feststellt oder von anderen darauf
+                                    hingewiesen wird, dass ein externes Angebot, auf das sie per
+                                    Link verknüpft hat, eine zivil- oder strafrechtliche
+                                    Verantwortlichkeit auslöst, wird sie den Link auf dieses Angebot
+                                    unverzüglich aufheben. Die Max-Planck-Gesellschaft distanziert
+                                    sich ausdrücklich von derartigen Inhalten.
+        </p>
+        <p>
+         Die Inhalte fremder Seiten, auf die das MPIWG mittels Links
+                                    hinweist, spiegeln nicht die Meinung des MPIWG wider, sondern
+                                    dienen lediglich der Information.
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Design
+         </strong>
+        </p>
+        <p>
+         Vivienne Rischke
+        </p>
+        <p>
+         <strong>
+          Umsetzung
+         </strong>
+        </p>
+        <p>
+         Dirk Wintergrün
+        </p>
+        <p>
+        </p>
+        <p>
+         <strong>
+          Rechtliche Hinweise zum Urheberrecht
+         </strong>
+        </p>
+        <p>
+         Das Layout der Homepage, die verwendeten Grafiken sowie die
+                                    sonstigen Inhalte der Internetpräsenz der
+                                    Max-Planck-Gesellschaft sind urheberrechtlich geschützt.
+        </p>
+        <p>
+         © Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.,
+                                    München. Alle Rechte vorbehalten.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="leo_footer">
+    <ul class="leo_footer_links">
+     <li>
+      <a href="/de/home.html">
+       Sitemap
+      </a>
+     </li>
+     <li>
+      <a href="/de/impressum.html">
+       Impressum/Copyright/Datenschutz
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <script type="text/javascript">
+   $("a[href^=http]").click(function () {
+                if (this.href.indexOf(location.hostname) == -1) {
+                    $(this).attr({
+                        target: "_blank",
+                        title: "externer link"
+                    });
+                }
+            })
+  </script>
+ </body>
+</html>

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title>
+   Proportions of the ancients
+  </title>
+<link href="../../static/LeonardoHTML/css/ujo6sza.css" rel="stylesheet"/>
+<!-- fuer myriad and shin-go Adobe Project 'Leonardo': https://fonts.adobe.com/fonts/a-otf-ud-shin-go-pr6n -->
+<script src="../../static/LeonardoHTML/js/jquery-3.6.0.min.js">
+</script>
+<script src="../../static/LeonardoHTML/js/jquery.tabSlideOut.js">
+</script>
+<script src="../../static/LeonardoHTML/js/mainTabSlider.js">
+</script>
+<script src="../../static/LeonardoHTML/js/leonardo.js">
+</script>
+<link href="../../static/LeonardoHTML/css/jquery.tabSlideOut.css" rel="stylesheet"/>
+<link href="../../static/LeonardoHTML/css/flexslider.css" rel="stylesheet" type="text/css"/>
+<link href="../../static/LeonardoHTML/bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="../../static/LeonardoHTML/css/leonardo.css" rel="stylesheet" type="text/css"/>
+<script src="../../static/LeonardoHTML/bootstrap-4.4.1-dist/js/bootstrap.bundle.js">
+</script>
+<script src="../../static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.js">
+</script>
+<link rel="/static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.css"/>
+</head>
+<body id="MainPage" lang="de-DE">
+<div class="leo_container">
+<!-- show_menu 0 100 100 100  -->
+<div class="leo_header">
+<ul class="leo_main_nav">
+<li>
+<a href="/en/index.html">
+       Home
+      </a>
+</li>
+<li>
+<a href="/en/overview.html">
+       Tour
+      </a>
+</li>
+<li>
+<a href="/en/bookoverview.html">
+       Leonardos's books
+      </a>
+</li>
+<li>
+<a href="/en/about.html">
+       The project
+      </a>
+</li>
+<li>
+<a href="/en/visit.html">
+       Visit
+      </a>
+</li>
+<li>
+<a href="/en/publications.html">
+       Publications
+      </a>
+</li>
+</ul>
+<ul class="leo_second_nav">
+<li>
+<form action="/en/search.html" method="get">
+<input name="q" size="20" type="search"/>
+</form>
+</li>
+<li>
+<span class="leo_lang">
+<a href="/de/proportions-ancients.html" title="Change to language: de">
+        de
+       </a>
+</span>
+<span class="leo_lang leo_lang_active">
+<a href="/en/proportions-ancients.html" title="Change to language: en">
+        en
+       </a>
+</span>
+</li>
+<!--<li><a>DE</a>|<a>EN</a></li>-->
+</ul>
+</div>
+<div class="standard_bg leo_main">
+<div class="leo_left_column">
+<div class="leo_logo">
+<img src="../../static/LeonardoHTML/images/LeonardosIntelKosmos-LOGO.png" width="186"/>
+</div>
+</div>
+<div class="leo_main_text">
+<h1 class="leo_main_title" id="leo_main_title">
+      Ancient Sources and New
+                        Experiences
+      <span>
+       &lt;
+      </span>
+</h1>
+<div id="leo_main_section_text">
+<p style="text-align: right;">
+<em>
+        By nature, all good humans have a thirst
+                                for knowledge
+       </em>
+<br/>
+       Leonardo da Vinci
+       <br/>
+<em>
+        Codex Atlanticus,
+       </em>
+       fol. 327v. Translation: Elizabeth Hughes
+      </p>
+<p>
+</p>
+<p class="Body">
+<span lang="PT">
+</span>
+</p>
+<p class="Body">
+<span lang="PT">
+</span>
+</p>
+<p class="Body">
+       In the 15th century, scholars throughout Europe, especially
+                            in Italy, sought to raise knowledge of and familiarity with authors from
+                            ancient Greece and Rome to a new level. The goal of these humanists was
+                            to collect textual sources systematically from widely diverse fields of
+                            knowledge and make them accessible through commentaries, translations,
+                            and soon through printed editions as well. Encyclopedias such as those
+                            by the philologist and mathematician Giorgio Valla (ca. 1447–1499) made
+                            previously rare handwritten treatises generally available.
+       <br/>
+       Florence was the first center of this movement, which was celebrated as
+                            the rebirth (Rinascita or Rinascimento in Italian, Renaissance in
+                            French) of ancient culture. The ideal of antiquity rapidly penetrated
+                            and inspired every cultural area, such as literature, architecture, and
+                            the visual arts. Parallel to this, the study of ancient traditions also
+                            promised resources for solving technical and scientific problems and
+                            tasks of contemporary life. Ancient natural scientists such as the Greek
+                            mathematicians Archimedes (ca. 287–212 BCE), Ptolemy (ca. 100–160 CE),
+                            and Euclid (ca. 300 BCE) were important authorities whose extant works
+                            formed a fixed canon. Their achievements also inspired Renaissance
+                            scholars in their own research and further observations.
+       <br/>
+       Another
+                            canonical work is the Ten Books on Architecture by the Roman architect
+                            and engineer Vitruvius (ca. 70 BCE–ca. 15 CE). Its impact can hardly be
+                            overestimated and Leonardo da Vinci naturally owned an edition.
+       <br/>
+       A
+                            contemporary counterpart are the writings of the philologist, master
+                            builder, and art theorist Leon Battista Alberti (1404–1472). His
+                            architectural designs, like those for the façade of Santa Maria Novella
+                            in Florence, are considered incunabula of Renaissance architecture,
+                            while his writings on the genres of architecture, painting, and
+                            sculpture laid down the first theoretical basis for the new forms of
+                            design. The humanist Alberti was regarded by his contemporaries as a
+                            shining example of universal education. He was an inspiration for
+                            Leonardo, too, not least for the latter’s own theoretical writings on
+                            painting.
+      </p>
+<p class="Body">
+</p>
+</div>
+<h2 class="leo_main_subtitle">
+</h2>
+<p>
+      Proportions of the Ancients
+     </p>
+<div class="leo_sub_section_text">
+<p class="Body">
+<span lang="PT">
+</span>
+</p>
+</div>
+<div class="leo_main_body">
+<ul class="leo_main_objectlist">
+<li class="leo_main_item leo_item_color_red">
+<a href="/en/book-40-40-leonardo-da-vinci-the-vitruvian-man-homo-vitruvianus-ca-1490.html">
+<span class="leo_">
+          40.
+         </span>
+<p>
+<em>
+           Leonardo da Vinci. The Vitruvian Man (Homo
+                                            Vitruvianus)
+          </em>
+</p>
+<p>
+          ca. 1490
+         </p>
+</a>
+</li>
+<li class="leo_main_item leo_item_color_yellow">
+<a href="/en/book-41-perotti-niccol-head-of-aristotle.html">
+<span class="leo_">
+          41.
+         </span>
+<div class="leo_title_author">
+          Perotti, Niccolò.
+         </div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">
+<em>
+            Head of
+                                                Aristotle
+           </em>
+</p>
+</div>
+<div>
+<p>
+           Roman copy from 1st–2nd century CE after a Greek original
+                                            from 4th c. BCE
+          </p>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="leo_right_column">
+</div>
+<div id="leo_ausstellungsobjekte">
+<div class="handle ui-slideouttab-handle ui-slideouttab-handle-rounded" id="right-handle_div">
+<a id="right-handle">
+       Objects
+       <i class="fa fa-icon fa-bank">
+</i>
+</a>
+</div>
+<ul>
+<div class="leo_ausstellungs_objekte_content">
+<div class="leo_ausstellungsobjekte_column">
+<ul>
+<li>
+<a href="/en/leonardos-intellectual-cosmos.html">
+           I.
+                                            Leonardo's intellectual cosmos
+          </a>
+<ul>
+<li>
+<a href="/en/leoanardos-berlin-library.html">
+             Leonardo's "Berlin Library"
+            </a>
+</li>
+<li>
+<a href="/en/leonardos-life-and-legacy.html">
+             Leonardo’s Life and Legacy
+            </a>
+</li>
+<li>
+<a href="/en/printing-leonardos-time.html">
+             Book
+                                                  printing in Leonardo's time
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/prologue-old-knowledge-and-new-technology.html">
+           1. Prologue: Old Knowledge and New Technology
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-1.html">
+             Leonardo's Berlin Library: Section 1
+            </a>
+</li>
+<li>
+<a href="/en/old-knowledge.html">
+             Old
+                                                Knowledge
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/roots.html">
+           2. Roots
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-2.html">
+             Leonardo's Berlin Library: Section 2
+            </a>
+</li>
+<li>
+<a href="/en/early-years.html">
+             The Early
+                                                Years
+            </a>
+</li>
+<li>
+<a href="/en/merchants-knowledge.html">
+             Merchants
+                                                  Knowledge
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/crowns-florence.html">
+           3. The Crowns of
+                                            Florence
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-3.html">
+             Leonardo's Berlin Library: Section 3
+            </a>
+</li>
+<li>
+<a href="/en/mentors.html">
+             Mentors
+            </a>
+</li>
+<li>
+<a href="/en/artists-workshop.html">
+             Artists'
+                                                  Workshop
+            </a>
+</li>
+<li>
+<a href="/en/brunelleschis-dome.html">
+             Brunelleschi's
+                                                  Dome
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/ancient-sources-and-new-experiences.html">
+           4.
+                                            Ancient Sources and New Experiences
+          </a>
+<ul>
+<li>
+<a href="/en/foundations.html">
+             Foundations
+            </a>
+</li>
+<li>
+<a href="index.html">
+             Proportions of the
+                                                ancients
+            </a>
+</li>
+<li>
+<a href="/en/leonardos-berlin-library-section-4.html">
+             Leonardo's Berlin Library: Section 4
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/cultural-challenges.html">
+           5. Cultural
+                                            Challenges
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-5.html">
+             Leonardo's Berlin Library: Section 5
+            </a>
+</li>
+<li>
+<a href="/en/leonardos-desk.html">
+             Leonardo's
+                                                  Desk
+            </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li>
+<a href="/en/world-history-and-natural-history.html">
+           6.
+                                            World History and Natural History
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-6.html">
+             Leonardo's Berlin Library: Section 6
+            </a>
+</li>
+<li>
+<a href="/en/natural-forms.html">
+             Natural
+                                                Forms
+            </a>
+</li>
+<li>
+<a href="/en/early-and-late-times.html">
+             Early and
+                                                  Late Times
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/challenges-technology.html">
+           7. Challenges of
+                                            Technology
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-7.html">
+             Leonardo's Berlin Library: Section 7
+            </a>
+</li>
+<li>
+<a href="/en/technology-argument.html">
+             The
+                                                  technology argument
+            </a>
+</li>
+<li>
+<a href="/en/body-mechanics.html">
+             Body
+                                                Mechanics
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/science-art-art-science.html">
+           8. Science as
+                                            Art, Art as Science
+          </a>
+<ul>
+<li>
+<a href="/en/geometric-art.html">
+             Geometric
+                                                Art
+            </a>
+</li>
+<li>
+<a href="/en/perspectives.html">
+             Perspectives
+            </a>
+</li>
+<li>
+<a href="/en/platonic-solids.html">
+             Platonic
+                                                  Solids
+            </a>
+</li>
+<li>
+<a href="/en/anatomy-and-surgery.html">
+             Anatomy and
+                                                  Surgery
+            </a>
+</li>
+<li>
+<a href="/en/leonardos-berlin-library-section-8.html">
+             Leonardo's Berlin Library: Section 8
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/world-great-and-small.html">
+           9. The World, Great
+                                            and Small
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-9.html">
+             Leonardo's Berlin Library: Section 9
+            </a>
+</li>
+<li>
+<a href="/en/near-and-distant-views.html">
+             Near and
+                                                  Distant Views
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/mobility-knowledge.html">
+           10. The Mobility of
+                                            Knowledge
+          </a>
+<ul>
+<li>
+<a href="/en/leonardos-berlin-library-section-10.html">
+             Leonardo's Berlin Library: Section 10
+            </a>
+</li>
+<li>
+<a href="/en/world-motion.html">
+             World in
+                                                Motion
+            </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/epilogue-codices.html">
+           12. Epilogue: The
+                                            Codices
+          </a>
+<ul>
+<li>
+<a href="/en/atlanticus-scattered.html">
+             Atlanticus,
+                                                  Scattered
+            </a>
+</li>
+<li>
+<a href="/de/codices.html">
+             Codices
+            </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</ul>
+</div>
+<div id="leo_videos">
+<div class="handle ui-slideouttab-handle ui-slideouttab-handle-rounded" id="right-handle_div2">
+<a href="/de/videos.html" id="right-handle2">
+       Videos
+       <i class="fa fa-icon fa-bank">
+</i>
+</a>
+</div>
+<div class="leo_video_list">
+<a href="https://mostre.museogalileo.it/bibliotecaleonardo/index.php/de/video-de">
+<figure>
+<img alt="" class="img-fluid" height="200" src="../../media/filer_public_thumbnails/filer_public/62/05/6205065d-b450-4ad1-bcb1-d784ba070ec0/leonardos-bibliothek.png__323x200_q85_subsampling-2.png"/>
+<figcaption>
+         Leonardos Bibliothek
+        </figcaption>
+</figure>
+</a>
+<a href="https://mostre.museogalileo.it/bibliotecaleonardo/index.php/de/video-de">
+<figure>
+<img alt="" class="img-fluid" height="200" src="../../media/filer_public_thumbnails/filer_public/60/33/60332a01-5c5c-4335-b7cc-38b8c1df2e50/protraet-des-lesers-als-junger-mann.png__323x200_q85_subsampling-2.png"/>
+<figcaption>
+         Porträt des Lesers als jungem Mann
+        </figcaption>
+</figure>
+</a>
+<a href="https://mostre.museogalileo.it/bibliotecaleonardo/index.php/de/video-de">
+<figure>
+<img alt="" class="img-fluid" height="200" src="../../media/filer_public_thumbnails/filer_public/ff/9a/ff9a8e46-60c4-4835-aaa9-cc7c5af415ab/leonardo-in-vinci-und-florenz.png__323x200_q85_subsampling-2_upscale.png"/>
+<figcaption>
+         Leonardo in Vinci und Florenz
+        </figcaption>
+</figure>
+</a>
+<a href="https://mostre.museogalileo.it/bibliotecaleonardo/index.php/de/video-de">
+<figure>
+<img alt="" class="img-fluid" height="200" src="../../media/filer_public_thumbnails/filer_public/6f/a1/6fa10638-dfaa-4df4-b265-7c8c15698977/leonardo-in-mailand.png__323x200_q85_subsampling-2.png"/>
+<figcaption>
+         Leonardo in Mailand
+        </figcaption>
+</figure>
+</a>
+<a href="https://mostre.museogalileo.it/bibliotecaleonardo/index.php/de/video-de">
+<figure>
+<img alt="" class="img-fluid" height="200" src="../../media/filer_public_thumbnails/filer_public/b7/a6/b7a6361d-499d-454c-a749-a383fa1da611/in-leonardos-kopf.png__323x200_q85_subsampling-2.png"/>
+<figcaption>
+         In Leonardos Kopf
+        </figcaption>
+</figure>
+</a>
+<a href="https://mostre.museogalileo.it/bibliotecaleonardo/index.php/de/video-de">
+<figure>
+<img alt="" class="img-fluid" height="200" src="../../media/filer_public_thumbnails/filer_public/5e/bc/5ebc8e9c-6421-4538-83ee-cd5790524bb5/ein-wanderleben.png__323x200_q85_subsampling-2.png"/>
+<figcaption>
+         Ein Wanderleben
+        </figcaption>
+</figure>
+</a>
+<a href="https://mostre.museogalileo.it/bibliotecaleonardo/index.php/de/video-de">
+<figure>
+<img alt="" class="img-fluid" height="200" src="../../media/filer_public_thumbnails/filer_public/70/9f/709fa91b-f382-4160-a0d3-0f3b49998b90/die-verlorene-bibliothek.png__323x200_q85_subsampling-2.png"/>
+<figcaption>
+         Die verlorene Bibliothek
+        </figcaption>
+</figure>
+</a>
+</div>
+</div>
+</div>
+<div class="leo_footer">
+<ul class="leo_footer_links">
+<li>
+<a href="/de/home.html">
+       Sitemap
+      </a>
+</li>
+<li>
+<a href="/de/impressum.html">
+       Impressum/Copyright/Privacy
+      </a>
+</li>
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+   $("a[href^=http]").click(function () {
+                if (this.href.indexOf(location.hostname) == -1) {
+                    $(this).attr({
+                        target: "_blank",
+                        title: "externer link"
+                    });
+                }
+            })
+  </script>
+</body>
+</html>
