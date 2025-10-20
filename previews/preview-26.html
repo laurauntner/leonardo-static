@@ -1,0 +1,60 @@
+<div class="container-fluid leo_streetview_carousel">
+        <div id="leo_preview_carousel" class="carousel slide" data-ride="carousel" data-interval="100000" data-keyboard="true">
+    
+        <div class="carousel-inner  w-100 mx-auto" role="listbox">
+<div class ='carousel-item  leo_preview_streetviewX active'> <div onclick='location.href="/de/buch-54-schedel-hartmann-1493-liber-chronicarum-nurnberg-anton-koberger/";' class="leo_thumb_buchtitel"><img src="/static/LeonardoHTML/images/Logo-blau.png" width="10px"/>54. <div class="leo_title_author">Schedel, Hartmann.</div>
+
+<div class="leo_title_title">
+<p class="TEDESCO_Catalogo_Titolo_D">Liber chronicarum</p>
+</div>
+
+<div class="leo_title_datePlace">
+<p class="TEDESCO_Catalogo_Dati_Tec_D">Nürnberg: Anton Koberger, 1493</p>
+</div></div><div class="leo_thumb_img"><a href="/de/buch-54-schedel-hartmann-1493-liber-chronicarum-nurnberg-anton-koberger/"><img src=/media/filer_public_thumbnails/filer_public/2e/94/2e947272-6b68-4752-badf-2426ca876059/054_schedel-hartmann-liber-chronicarum.png__400x400_q85_subsampling-2.png /></a></div> </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#leo_preview_carousel" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <i class="fa fa-chevron-left fa-lg text-muted"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#leo_preview_carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <i class="fa fa-chevron-right fa-lg text-muted"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+    <script type="text/javascript">
+    $('.carousel').carousel();
+    $('#leo_preview_carousel').on('slide.bs.carousel', function (e) {
+    /*
+
+    CC 2.0 License Iatek LLC 2018
+    Attribution required
+
+    */
+    var $e = $(e.relatedTarget);
+
+    var idx = $e.index();
+    console.log("IDX :  " + idx);
+
+    var itemsPerSlide = 3;
+    var totalItems = $('.carousel-item').length;
+
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction=="left") {
+                $('.carousel-item').eq(i).appendTo('.carousel-inner-3');
+            }
+            else {
+                $('.carousel-item').eq(0).appendTo('.carousel-inner-3');
+            }
+        }
+    }
+});
+    </script>
+    
+        
