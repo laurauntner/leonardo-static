@@ -1,0 +1,83 @@
+<div class="container-fluid leo_streetview_carousel">
+        <div id="leo_preview_carousel" class="carousel slide" data-ride="carousel" data-interval="100000" data-keyboard="true">
+    
+        <div class="carousel-inner  w-100 mx-auto" role="listbox">
+<div class ='carousel-item  leo_preview_streetviewX active'> <div onclick='location.href="/en/div-classleo_title_authorleonardo-da-vincidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_danatomische-studien-eines-armes-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d15101511-pdiv/";' class="leo_thumb_buchtitel"><img src="/static/LeonardoHTML/images/Logo-rot.png" width="10px"/>69. <div class="leo_title_author">Leonardo da Vinci.</div>
+
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG"><em>The bones and muscles of the arm</em></p>
+</div>
+
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG"><span lang="en-US">1510–1511</span></p>
+</div></div><div class="leo_thumb_img"><a href="/en/div-classleo_title_authorleonardo-da-vincidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_danatomische-studien-eines-armes-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d15101511-pdiv/"><img src=/media/filer_public_thumbnails/filer_public/4e/98/4e987f1c-56ef-408d-81b3-d75d0b219598/069_leonardo_da_vinci_919000_v_rct_windsor.png__400x400_q85_subsampling-2.png /></a></div> </div>
+<div class ='carousel-item  leo_preview_streetviewX'> <div onclick='location.href="/en/div-classleo_title_authorleonardo-da-vincidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dmodell-fur-den-guss-des-sforza-pferdes-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d1491-pdiv/";' class="leo_thumb_buchtitel"><img src="/static/LeonardoHTML/images/Logo-rot.png" width="10px"/>68. <div class="leo_title_author">Leonardo da Vinci.</div>
+
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG"><em>Model for the cast of the Sforza horse</em></p>
+</div>
+
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">1491</p>
+</div></div><div class="leo_thumb_img"><a href="/en/div-classleo_title_authorleonardo-da-vincidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dmodell-fur-den-guss-des-sforza-pferdes-pdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d1491-pdiv/"><img src=/media/filer_public_thumbnails/filer_public/05/92/0592af9f-69e8-4d2a-88b1-192cdef05dd4/tratados_varios_de_fortificacion_estatica_y_geometria_manuscrito__323.jpg__400x400_q85_subsampling-2.jpg /></a></div> </div>
+<div class ='carousel-item  leo_preview_streetviewX'> <div onclick='location.href="/en/div-classleo_title_authorleonardo-da-vincidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dbewerbungsschreiben-an-ludovico-sforzapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dca-1482-pdiv/";' class="leo_thumb_buchtitel"><img src="/static/LeonardoHTML/images/Logo-rot.png" width="10px"/>67. <div class="leo_title_author">Leonardo da Vinci.</div>
+
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG">“Job application” to Ludovico Sforza</p>
+</div>
+
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG"><span lang="en-US">ca. 1482</span></p>
+</div></div>
+<div class="leo_external_question">
+          Some Codices are provided by the Bibliotheca Leordina: <a href="https://www.leonardodigitale.com">
+           Leonardo digitale/eLeo
+          </a>.
+</div> </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#leo_preview_carousel" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <i class="fa fa-chevron-left fa-lg text-muted"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#leo_preview_carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <i class="fa fa-chevron-right fa-lg text-muted"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+    <script type="text/javascript">
+    $('.carousel').carousel();
+    $('#leo_preview_carousel').on('slide.bs.carousel', function (e) {
+    /*
+
+    CC 2.0 License Iatek LLC 2018
+    Attribution required
+
+    */
+    var $e = $(e.relatedTarget);
+
+    var idx = $e.index();
+    console.log("IDX :  " + idx);
+
+    var itemsPerSlide = 3;
+    var totalItems = $('.carousel-item').length;
+
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction=="left") {
+                $('.carousel-item').eq(i).appendTo('.carousel-inner-3');
+            }
+            else {
+                $('.carousel-item').eq(0).appendTo('.carousel-inner-3');
+            }
+        }
+    }
+});
+    </script>
+    
+        

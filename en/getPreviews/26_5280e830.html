@@ -1,0 +1,78 @@
+<div class="container-fluid leo_streetview_carousel">
+        <div id="leo_preview_carousel" class="carousel slide" data-ride="carousel" data-interval="100000" data-keyboard="true">
+    
+        <div class="carousel-inner  w-100 mx-auto" role="listbox">
+<div class ='carousel-item  leo_preview_streetviewX active'> <div onclick='location.href="/en/div-classleo_title_authorschedel-hartmanndivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dliber-chronicarumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dnurnberg-anton-koberger-1493pdiv/";' class="leo_thumb_buchtitel"><img src="/static/LeonardoHTML/images/Logo-blau.png" width="10px"/>54. <div class="leo_title_author">Schedel, Hartmann.</div>
+
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG"><em>Liber chronicarum</em></p>
+</div>
+
+<div class="leo_title_datePlace">
+<p class="INGLESE_Catalogo_Dati_Tec_ENG"><span lang="en-US">Nuremberg</span>: Anton Koberger, 1493</p>
+</div>
+
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="height: 22px; width: 22px;"> </div>
+
+<div class="simple-translate-panel " style="width: 300px; height: 200px; font-size: 13px; background-color: rgb(255, 255, 255);">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true"> </div>
+
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: rgb(0, 0, 0);"> </p>
+
+<p class="simple-translate-candidate" dir="auto" style="color: rgb(115, 115, 115);"> </p>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="leo_thumb_img"><a href="/en/div-classleo_title_authorschedel-hartmanndivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dliber-chronicarumpdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dnurnberg-anton-koberger-1493pdiv/"><img src=/media/filer_public_thumbnails/filer_public/2e/94/2e947272-6b68-4752-badf-2426ca876059/054_schedel-hartmann-liber-chronicarum.png__400x400_q85_subsampling-2.png /></a></div> </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#leo_preview_carousel" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <i class="fa fa-chevron-left fa-lg text-muted"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#leo_preview_carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <i class="fa fa-chevron-right fa-lg text-muted"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+    <script type="text/javascript">
+    $('.carousel').carousel();
+    $('#leo_preview_carousel').on('slide.bs.carousel', function (e) {
+    /*
+
+    CC 2.0 License Iatek LLC 2018
+    Attribution required
+
+    */
+    var $e = $(e.relatedTarget);
+
+    var idx = $e.index();
+    console.log("IDX :  " + idx);
+
+    var itemsPerSlide = 3;
+    var totalItems = $('.carousel-item').length;
+
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction=="left") {
+                $('.carousel-item').eq(i).appendTo('.carousel-inner-3');
+            }
+            else {
+                $('.carousel-item').eq(0).appendTo('.carousel-inner-3');
+            }
+        }
+    }
+});
+    </script>
+    
+        
