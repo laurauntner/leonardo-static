@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title>Leonardo Online</title>
+<link href="/static/LeonardoHTML/css/ujo6sza.css" rel="stylesheet"/>
+<!-- fuer myriad and shin-go Adobe Project 'Leonardo': https://fonts.adobe.com/fonts/a-otf-ud-shin-go-pr6n -->
+<script src="/static/LeonardoHTML/js/jquery-3.6.0.min.js"></script>
+<script src="/static/LeonardoHTML/js/jquery.tabSlideOut.js"></script>
+<script src="/static/LeonardoHTML/js/mainTabSlider.js"></script>
+<script src="/static/LeonardoHTML/js/leonardo.js"></script>
+<link href="/static/LeonardoHTML/css/jquery.tabSlideOut.css" rel="stylesheet"/>
+<link href="/static/LeonardoHTML/css/flexslider.css" rel="stylesheet" type="text/css"/>
+<link href="/static/LeonardoHTML/bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="/static/LeonardoHTML/css/leonardo.css" rel="stylesheet" type="text/css"/>
+<script src="/static/LeonardoHTML/bootstrap-4.4.1-dist/js/bootstrap.bundle.js"></script>
+<script src="/static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<link href="/static/LeonardoHTML/jquery-ui-1.12.1/jquery-ui.min.css"/>
+<style>
+        #leo_preview_streetview .carousel-inner .leo_thumb_buchtitel img {
+            width: auto;
+            height: 1em;
+        }
+
+        @media (min-width : 768px) {
+
+            /* show 3 items */
+            .carousel-inner .active,
+            .carousel-inner .active+.carousel-item,
+            .carousel-inner .active+.carousel-item+.carousel-item {
+                display: block;
+            }
+
+            .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+            .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+            .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+                transition: none;
+                margin-right: initial;
+            }
+
+            .carousel-inner .carousel-item-next,
+            .carousel-inner .carousel-item-prev {
+                position: relative;
+                transform: translate3d(0, 0, 0);
+            }
+
+            .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+                position: absolute;
+                top: 0;
+                right: -33.3333%;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+            }
+
+            /* left or forward direction */
+            .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+            .carousel-item-next.carousel-item-left+.carousel-item,
+            .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+            .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+                position: relative;
+                transform: translate3d(-100%, 0, 0);
+                visibility: visible;
+            }
+
+            /* farthest right hidden item must be abso position for animations */
+            .carousel-inner .carousel-item-prev.carousel-item-right {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+            }
+
+            /* right or prev direction */
+            .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+            .carousel-item-prev.carousel-item-right+.carousel-item,
+            .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+            .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+                position: relative;
+                transform: translate3d(100%, 0, 0);
+                visibility: visible;
+                display: block;
+                visibility: visible;
+            }
+
+        }
+    </style>
+</head>
+<body id="MainPage" lang="de-DE">
+<div class="leo_container">
+<!-- show_menu 0 100 100 100  -->
+<div class="leo_header">
+<ul class="leo_main_nav">
+<li>
+<a href="/en/index.html">
+                        Home
+                    </a>
+</li>
+<li>
+<a href="/en/overview.html">
+                        Tour
+                    </a>
+</li>
+<li>
+<a href="/en/bookoverview.html">
+                        Leonardos's books
+                    </a>
+</li>
+<li>
+<a href="/en/about.html">
+                        The project
+                    </a>
+</li>
+<li>
+<a href="/en/visit.html">
+                        Visit
+                    </a>
+</li>
+<li>
+<a href="/en/publications.html">
+                        Publications
+                    </a>
+</li>
+</ul>
+
+<ul class="leo_second_nav">
+<li>
+<span class="leo_lang">
+<a href="/de/streetview-18.html" title="Change to language: de">
+                            de
+                        </a>
+</span>
+<span class="leo_lang leo_lang_active">
+<a href="/en/streetview-18.html" title="Change to language: en">
+                            en
+                        </a>
+</span>
+</li>
+<!--<li><a>DE</a>|<a>EN</a></li>-->
+</ul>
+</div>
+<div class="black_bg leo_main">
+<div class="leo_logo" style="position: absolute; z-index: 50">
+<img src="/static/LeonardoHTML/images/LeonardosIntelKosmos-LOGO.png" width="186"/>
+</div>
+<div id="leo_image_and_objects_right">
+<div class="hidden leo_image_container_right" id="camery_image_container" style="position: relative;">
+<div class="leo_streetview_title">
+<a href="" name="leo_section_url" target="blank">
+<span id="leo_section_title"></span>
+</a>
+</div>
+<div class="leo_map_camera ui-widget-content ui-draggable ui-draggable-handle" id="leo_map_camera" style="
+                 z-index: 100; position: absolute; top:90px;">
+<div>
+<div style="background: grey; opacity: 80%; cursor:pointer;">
+<div id="leo_nav_toggle" style="display:inline; background:grey; opacity:80%; cursor:pointer; padding-left: 30px;">
+<span id="showoverview">Overview |</span>
+<span class="hidden" id="hideoverview">Overview |</span>
+</div>
+<div id="leo_nav_toggle_objects" onclick="showObjects();" style="display: inline; background: grey; opacity: 80%; cursor:pointer; display: inline">
+<span class="" id="showobjects">Objects </span>
+<span class="hidden" id="hideobjects">Objects </span>
+</div>
+
+<div style="display: inline; background: grey; opacity: 80%; cursor:pointer; padding-left: 112px; padding-right:10px;">
+<a class="prev_image" href="/en/streetview-17.html">prev</a>
+<span id="currentIndex"> 18 </span>
+<a class="next_image" href="/en/streetview-19.html">next</a>
+</div>
+</div>
+<div id="leo_nav_svg">
+<img src="/static/LeonardoHTML/images/DaV-210520-Grundriss.png" style="background: grey; opacity: 80%"/>
+<svg id="Fotostreetview" viewbox="0 0 473.67 520.36" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+                                            .cls-1 {
+                                                fill: #fff;
+                                            }
+
+                                            .cls-1,
+                                            .cls-2 {
+                                                stroke: #1d1d1b;
+                                                stroke-miterlimit: 10;
+                                            }
+
+                                            .cls-2 {
+                                                fill: none;
+                                            }
+
+                                            .cls-3 {
+                                                font-size: 5px;
+                                                fill: #1d1d1b;
+                                                font-family: Consolas-Bold, Consolas;
+                                                font-weight: 700;
+                                            }
+                                        </style>
+</defs>
+<title>DaV-210520-Grundriss</title>
+
+<!-- 1 -->
+<a href="/en/streetview-1.html">
+<rect class="camera_1 cls-1 camera_selected camera" height="6.96" width="6.96" x="136.81" y="512.91"></rect>
+<path class="camera_1 cls-2 camera_selected camera" d="M298.59,580.8c.53.5,1.08,1,1.6,1.51.28.28.55.58.82.89.08.09.22.33.34.37s.23-.08.34-.17.35-.34.54-.5l.89-.75a9.45,9.45,0,0,0,1.54-1.62c.64-.92-.59-.76-1.42-.73-1.7.05-3.39.16-5.08.26-.08,0-.17,0-.18.1a.15.15,0,0,0,.06.11C298.22,580.45,298.4,580.63,298.59,580.8Z" transform="translate(-161.06 -70.67)"></path>
+<text class="camera_1 camera_selected cls-3 camera" transform="translate(138.87 517.81)">1</text>
+</a>
+<!-- 2 -->
+<a href="/en/streetview-2.html">
+<rect class="camera_selected cls-1 camera_2 camera" height="6.96" transform="translate(393.12 -61.82) rotate(52.05)" width="6.96" x="264.54" y="568.38"></rect>
+<path class="camera_selected cls-2 camera_2 camera" d="M271.26,565.83c-.07.73-.12,1.47-.2,2.19-.05.4-.13.8-.2,1.19a1.82,1.82,0,0,0-.09.5c.05.16.21.14.35.16s.49.07.73.13l1.13.24a9.32,9.32,0,0,0,2.23.21c1.12-.06.24-.92-.3-1.57-1.08-1.3-2.21-2.57-3.33-3.84-.05-.06-.13-.12-.19-.07s0,.07-.05.11C271.31,565.33,271.28,565.58,271.26,565.83Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_2 camera" transform="matrix(0.61, 0.79, -0.79, 0.61, 104.92, 500.96)">2</text>
+</a>
+<!-- 3 -->
+<a href="/en/streetview-3.html">
+<rect class="camera_selected cls-1 camera_3 camera" height="6.96" transform="translate(-477.82 375) rotate(-48.82)" width="6.96" x="329.13" y="568.32"></rect>
+<path class="camera_selected cls-2 camera_3 camera" d="M326.08,569.76c.73-.07,1.46-.16,2.19-.21.4,0,.8,0,1.2,0a1.45,1.45,0,0,0,.51,0c.14-.08.09-.22.09-.37s0-.49,0-.73,0-.78,0-1.17a9.23,9.23,0,0,0-.21-2.22c-.27-1.09-1-.06-1.49.58-1.07,1.31-2.1,2.66-3.14,4-.05.06-.09.15,0,.2a.17.17,0,0,0,.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_3 camera" transform="matrix(0.66, -0.75, 0.75, 0.66, 171.71, 503.09)">3</text>
+</a>
+<!-- 6 -->
+<a href="/en/streetview-6.html">
+<rect class="camera_selected cls-1 camera_6 camera" height="6.96" transform="translate(-194.69 -47.58) rotate(-3.88)" width="6.96" x="320.27" y="503.98"></rect>
+<path class="camera_selected cls-2 camera_6 camera" d="M320.57,501.4c.56.46,1.14.91,1.7,1.39.3.27.59.55.88.83.08.09.24.32.36.35s.22-.09.33-.19.33-.37.5-.54.57-.53.84-.8a9.47,9.47,0,0,0,1.43-1.73c.58-1-.64-.71-1.47-.63-1.69.17-3.37.39-5.05.61-.07,0-.17,0-.17.11s0,.08.07.11Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_6 camera" transform="translate(161.35 438.26) rotate(-3.88)">6</text>
+</a>
+<!-- 7 -->
+<a href="/en/streetview-7.html">
+<rect class="camera_selected cls-1 camera_7 camera" height="6.96" transform="translate(-192.33 -49.26) rotate(-3.88)" width="6.96" x="296.62" y="468.28"></rect>
+<path class="camera_selected cls-2 camera_7 camera" d="M296.92,465.7c.56.47,1.14.92,1.7,1.4.3.26.59.54.87.83.09.08.25.31.37.35s.22-.1.33-.2.33-.36.5-.53l.84-.81A9.4,9.4,0,0,0,303,465c.57-1-.64-.72-1.47-.64-1.69.17-3.37.39-5.05.61-.08,0-.17,0-.17.12s0,.07.07.1Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_7 camera" transform="translate(137.7 402.56) rotate(-3.88)">7</text>
+</a>
+<!-- 5 -->
+<a href="/en/streetview-5.html">
+<rect class="camera_selected cls-1 camera_5 camera" height="6.96" transform="translate(653.79 139.67) rotate(90.55)" width="6.96" x="299.78" y="505.22"></rect>
+<path class="camera_selected cls-2 camera_5 camera" d="M309.54,506c-.5.53-1,1.07-1.52,1.58-.29.29-.59.55-.89.81-.1.09-.34.22-.38.34s.08.23.17.34.34.36.49.55l.74.9a9.84,9.84,0,0,0,1.61,1.55c.91.65.76-.58.75-1.41,0-1.7-.13-3.39-.22-5.09,0-.07,0-.17-.1-.17a.15.15,0,0,0-.11.06Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_5 camera" transform="translate(140.82 436.55) rotate(90.55)">5</text>
+</a>
+<!-- 4 -->
+<a href="/en/streetview-4.html">
+<rect class="camera_selected cls-1 camera_4 camera" height="6.96" transform="translate(-376.66 729.88) rotate(-89.72)" width="6.96" x="290.98" y="505.13"></rect>
+<path class="camera_selected cls-2 camera_4 camera" d="M288.19,511.34c.5-.53,1-1.08,1.51-1.59.29-.29.59-.55.89-.82.09-.08.33-.22.38-.34s-.08-.23-.17-.34-.34-.35-.5-.54-.49-.6-.75-.9a9,9,0,0,0-1.61-1.54c-.91-.65-.76.58-.74,1.41.05,1.7.15,3.39.24,5.08,0,.08,0,.18.1.18a.2.2,0,0,0,.12-.06Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_4 camera" transform="translate(134.82 439.33) rotate(-89.72)">4</text>
+</a>
+<!-- 8 -->
+<a href="/en/streetview-8.html">
+<rect class="camera_selected cls-1 camera_8 camera" height="6.96" transform="translate(124.32 -144.38) rotate(33.96)" width="6.96" x="259.89" y="426.94"></rect>
+<path class="camera_selected cls-2 camera_8 camera" d="M264.57,423.68c.16.72.34,1.43.49,2.14.08.4.13.8.18,1.2,0,.12,0,.4.07.5s.24.06.38,0,.49-.08.73-.11l1.16-.12a9.06,9.06,0,0,0,2.18-.49c1.05-.4-.06-.95-.77-1.4-1.43-.9-2.9-1.75-4.36-2.61-.07,0-.16-.07-.2,0a.2.2,0,0,0,0,.13C264.46,423.19,264.52,423.44,264.57,423.68Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_8 camera" transform="translate(100.32 360.19) rotate(33.96)">8</text>
+</a>
+<!-- 9 -->
+<a href="/en/streetview-9.html">
+<rect class="camera_9 cls-1 camera_selected camera" height="6.96" transform="translate(505.16 31.64) rotate(81.84)" width="6.96" x="270.61" y="431.97"></rect>
+<path class="camera_9 cls-2 camera_selected camera" d="M279.89,431.83c-.42.59-.83,1.2-1.26,1.79-.24.33-.5.63-.76.94-.08.09-.3.27-.33.39s.12.22.22.31.39.3.57.47l.87.77a8.91,8.91,0,0,0,1.83,1.29c1,.51.66-.68.52-1.5-.29-1.68-.64-3.33-1-5,0-.07-.06-.16-.13-.15a.13.13,0,0,0-.1.07Z" transform="translate(-161.06 -70.67)"></path>
+<text class="camera_9 camera_selected cls-3 camera" transform="translate(111.47 363.57) rotate(81.84)">9</text>
+</a>
+<!-- 10 -->
+<a href="/en/streetview-10.html">
+<rect class="camera_selected camera_10 cls-1 camera" height="6.96" transform="translate(-345.58 399.45) rotate(-58.05)" width="6.96" x="327.85" y="397.84"></rect>
+<path class="camera_selected camera_10 cls-2 camera" d="M324.56,400.35c.71-.19,1.41-.4,2.13-.56.39-.1.79-.16,1.18-.23.13,0,.4,0,.5-.09s.05-.24,0-.38-.1-.48-.13-.73-.11-.76-.17-1.15a9,9,0,0,0-.56-2.16c-.44-1-1,.09-1.37.82-.85,1.46-1.66,3-2.46,4.45,0,.06-.07.16,0,.2s.08,0,.13,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_10 camera_selected camera" transform="matrix(0.53, -0.85, 0.85, 0.53, 169.97, 333.78)">10</text>
+</a>
+<!-- 11 -->
+<a href="/en/streetview-11.html">
+<rect class="camera_selected camera_11 cls-1 camera" height="6.96" transform="translate(-301.93 498.94) rotate(-74.47)" width="6.96" x="300.81" y="374"></rect>
+<path class="camera_selected camera_11 cls-2 camera" d="M297.52,378.46c.62-.38,1.24-.77,1.88-1.14.35-.19.71-.37,1.07-.55.11,0,.38-.12.45-.22s0-.25-.07-.38-.24-.43-.34-.66l-.48-1.05a9.31,9.31,0,0,0-1.15-1.92c-.72-.86-.89.36-1.09,1.17-.4,1.65-.75,3.31-1.1,5,0,.07,0,.17.05.19a.13.13,0,0,0,.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_11 camera_selected camera" transform="translate(143.94 309.75) rotate(-74.47)">11</text>
+</a>
+<!-- 12 -->
+<a href="/en/streetview-12.html">
+<rect class="camera_selected cls-1 camera_12 camera" height="6.96" transform="translate(-332.73 170.02) rotate(-38.68)" width="6.96" x="253.53" y="361.4"></rect>
+<path class="camera_selected cls-2 camera_12 camera" d="M250.94,361.72c.73,0,1.47.09,2.19.17l1.2.18c.12,0,.38.12.5.08s.13-.21.15-.35.07-.48.12-.72.15-.76.22-1.14a8.82,8.82,0,0,0,.19-2.23c-.07-1.12-.93-.23-1.57.31-1.29,1.1-2.54,2.25-3.8,3.39,0,0-.11.13-.07.19a.17.17,0,0,0,.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_12 camera" transform="translate(94.75 296.95) rotate(-38.68)">12</text>
+</a>
+<!-- 13 -->
+<a href="/en/streetview-13.html">
+<rect class="camera_selected cls-1 camera_13 camera" height="6.96" transform="translate(82.61 -159.04) rotate(33.36)" width="6.96" x="265.8" y="358.94"></rect>
+<path class="camera_selected cls-2 camera_13 camera" d="M270.42,355.68c.17.71.36,1.42.51,2.14.08.39.14.79.2,1.19a1.38,1.38,0,0,0,.07.5c.1.13.24.06.38,0s.48-.09.73-.12.77-.08,1.15-.14a9.08,9.08,0,0,0,2.18-.5c1-.42-.07-1-.78-1.4-1.45-.88-2.92-1.72-4.39-2.57-.07,0-.16-.07-.2,0a.15.15,0,0,0,0,.13C270.31,355.19,270.36,355.43,270.42,355.68Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_13 camera_selected camera" transform="matrix(0.84, 0.55, -0.55, 0.84, 105.21, 291.42)">13</text>
+</a>
+<!-- 14 -->
+<a href="/en/streetview-14.html">
+<rect class="camera_selected cls-1 camera_14 camera" height="6.96" transform="translate(-296.75 315.86) rotate(-60.35)" width="6.96" x="261.06" y="306.47"></rect>
+<path class="camera_selected cls-2 camera_14 camera" d="M257.74,309.25c.7-.21,1.39-.45,2.1-.64.39-.11.78-.2,1.18-.28a1.35,1.35,0,0,0,.49-.11c.12-.1,0-.24,0-.38s-.13-.48-.17-.72-.13-.76-.21-1.14a9.44,9.44,0,0,0-.65-2.14c-.48-1-.95.13-1.34.87-.79,1.5-1.53,3-2.28,4.55,0,.06-.06.16,0,.2a.19.19,0,0,0,.13,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_14 camera" transform="translate(103.45 242.31) rotate(-60.35)">14</text>
+</a>
+<!-- 15 -->
+<a href="/en/streetview-15.html">
+<rect class="camera_selected camera_15 cls-1 camera" height="6.96" transform="translate(-306.43 168.69) rotate(-43.77)" width="6.96" x="221.8" y="297.16"></rect>
+<path class="camera_selected cls-2 camera_15 camera" d="M219,298c.73,0,1.46,0,2.19,0,.41,0,.81,0,1.21.07.12,0,.39.09.5,0s.11-.22.13-.36,0-.49,0-.74.09-.77.13-1.15a9.33,9.33,0,0,0,0-2.24c-.17-1.1-1-.14-1.53.46-1.19,1.21-2.34,2.46-3.49,3.7,0,.06-.1.14,0,.2s.07,0,.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_15 camera_selected camera" transform="translate(63.53 232.95) rotate(-43.77)">15</text>
+</a>
+<!-- 16 -->
+<a href="/en/streetview-16.html">
+<rect class="camera_selected camera cls-1 camera_16" height="6.96" width="6.96" x="6.8" y="198.7"></rect>
+<path class="camera_selected cls-2 camera camera_16" d="M168.58,266.59c.53.51,1.07,1,1.59,1.51.29.28.56.58.83.89.08.09.22.33.33.37s.24-.08.34-.17.36-.34.55-.5l.89-.75a9,9,0,0,0,1.53-1.62c.65-.92-.58-.76-1.41-.73-1.7.05-3.39.16-5.08.26-.08,0-.18,0-.18.11a.17.17,0,0,0,.06.11Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera camera_selected camera_16" transform="translate(7.6 203.6)">16</text>
+</a>
+<!-- 17 -->
+<a href="/en/streetview-17.html">
+<rect class="camera_selected camera_17 cls-1 camera" height="6.96" transform="translate(56.95 -119) rotate(45.46)" width="6.96" x="163.21" y="232.59"></rect>
+<path class="camera_selected camera_17 cls-2 camera" d="M169.21,229.71c0,.74,0,1.47,0,2.2,0,.4,0,.81-.06,1.21a1.42,1.42,0,0,0,0,.5c.07.15.22.11.36.12l.74,0,1.16.11a9.25,9.25,0,0,0,2.23,0c1.11-.19.13-.95-.47-1.53-1.23-1.17-2.49-2.3-3.75-3.43-.06,0-.14-.1-.2,0a.15.15,0,0,0,0,.12C169.2,229.21,169.2,229.46,169.21,229.71Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_17 camera_selected camera" transform="translate(2.74 164.41) rotate(45.46)">17</text>
+</a>
+<!-- 23 -->
+<a href="/en/streetview-23.html">
+<rect class="camera_23 cls-1 camera_selected camera" height="6.96" transform="translate(182.65 312.96) rotate(-111.98)" width="6.96" x="297.81" y="72.37"></rect>
+<path class="camera_23 cls-2 camera_selected camera" d="M296.52,80.75c.26-.68.51-1.37.8-2,.15-.37.33-.74.51-1.1.06-.11.23-.33.22-.45s-.16-.19-.29-.25-.44-.2-.66-.32-.68-.37-1-.54a9.1,9.1,0,0,0-2.08-.82c-1.09-.26-.48.82-.15,1.59.69,1.55,1.42,3.08,2.15,4.61,0,.07.09.15.16.12a.12.12,0,0,0,.08-.09C296.33,81.22,296.43,81,296.52,80.75Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_23 camera" transform="translate(142.53 7.09) rotate(-111.98)">23</text>
+</a>
+<!-- 22 -->
+<a href="/en/streetview-22.html">
+<rect class="camera_selected cls-1 camera_22 camera" height="6.96" transform="translate(178.24 399.59) rotate(-99.99)" width="6.96" x="363.51" y="89.27"></rect>
+<path class="camera_selected cls-2 camera_22 camera" d="M361.3,96.55c.41-.61.79-1.24,1.21-1.84.23-.33.48-.64.73-1,.08-.1.29-.28.31-.4s-.12-.21-.23-.3-.39-.29-.58-.45l-.89-.75A9.3,9.3,0,0,0,360,90.62c-1-.48-.64.71-.47,1.52.34,1.66.74,3.31,1.14,5,0,.07.06.16.13.16s.07-.05.1-.08C361,97,361.17,96.76,361.3,96.55Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_22 camera" transform="translate(207.77 24.51) rotate(-99.99)">22</text>
+</a>
+<!-- 21 -->
+<a href="/en/streetview-21.html">
+<rect class="camera_selected cls-1 camera_21 camera" height="6.96" transform="translate(-54.34 -175.48) rotate(27.14)" width="6.96" x="266.97" y="165.16"></rect>
+<path class="camera_selected cls-2 camera_21 camera" d="M270.85,161.81c.24.69.51,1.38.73,2.07.13.39.23.78.33,1.17a1.61,1.61,0,0,0,.13.49c.11.12.24,0,.38,0s.47-.15.71-.2l1.14-.26a9.2,9.2,0,0,0,2.1-.74c1-.53-.17-.94-.92-1.3-1.54-.73-3.09-1.4-4.65-2.08-.06,0-.16-.05-.2,0a.19.19,0,0,0,0,.13C270.68,161.34,270.76,161.58,270.85,161.81Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_21 camera" transform="translate(106.35 97.99) rotate(27.14)">21</text>
+</a>
+<!-- 20 -->
+<a href="/en/streetview-20.html">
+<rect class="camera_selected cls-1 camera_20 camera" height="6.96" transform="translate(-101.38 -123.7) rotate(13.93)" width="6.96" x="243.3" y="214.16"></rect>
+<path class="camera_selected cls-2 camera_20 camera" d="M245.61,210.89c.39.62.81,1.23,1.19,1.85.21.35.39.7.58,1.06.06.11.13.38.24.45s.24,0,.37-.09.43-.25.65-.35.7-.34,1-.52a8.82,8.82,0,0,0,1.88-1.2c.85-.74-.38-.88-1.2-1.05-1.66-.36-3.32-.66-5-1-.08,0-.17,0-.2.06a.15.15,0,0,0,0,.12C245.34,210.47,245.47,210.68,245.61,210.89Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_20 camera" transform="translate(82.79 147.69) rotate(13.93)">20</text>
+</a>
+<!-- 19 -->
+<a href="/en/streetview-19.html">
+<rect class="camera_selected camera_19 cls-1 camera" height="6.96" transform="translate(186.14 539.23) rotate(-178.67)" width="6.96" x="173.67" y="299.46"></rect>
+<path class="camera_selected cls-2 camera_19 camera" d="M179.76,309.25c-.52-.51-1.06-1-1.56-1.54-.28-.29-.54-.6-.8-.9-.08-.1-.22-.34-.33-.39s-.24.08-.35.17-.36.33-.55.48l-.91.73a9.09,9.09,0,0,0-1.57,1.59c-.67.9.56.77,1.4.76,1.69,0,3.39-.08,5.08-.14.08,0,.17,0,.18-.1a.2.2,0,0,0-.06-.12Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_19 camera_selected camera" transform="translate(18.83 230.86) rotate(-178.67)">19</text>
+</a>
+<!-- 18 -->
+<a href="/en/streetview-18.html">
+<rect class="cls-1 camera_active camera_18 camera" height="6.96" transform="matrix(-0.82, -0.57, 0.57, -0.82, 104.88, 523.05)" width="6.96" x="223.04" y="251.48"></rect>
+<path class="cls-2 camera_active camera_18 camera" d="M225.19,261.67c-.15-.71-.32-1.43-.45-2.15-.07-.4-.12-.8-.17-1.2a1.38,1.38,0,0,0-.06-.5c-.09-.13-.23-.06-.38-.05s-.48.08-.73.1l-1.15.1a9,9,0,0,0-2.19.45c-1.06.38,0,.95.74,1.41,1.42.93,2.87,1.81,4.31,2.7.07,0,.16.07.21,0a.16.16,0,0,0,0-.12C225.29,262.17,225.24,261.92,225.19,261.67Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_active camera_18 camera" transform="translate(68.47 184.71) rotate(-145.02)">18</text>
+</a>
+<!-- 33 -->
+<a href="/en/streetview-33.html">
+<rect class="camera_selected camera_33 cls-1 camera" height="6.96" transform="translate(685.95 -379.46) rotate(83.68)" width="6.96" x="592.45" y="315.09"></rect>
+<path class="camera_selected camera_33 cls-2 camera" d="M601.85,315.14c-.44.58-.87,1.18-1.32,1.75-.26.32-.53.62-.8.92-.08.09-.3.25-.33.38s.1.22.21.31.38.32.55.49.56.54.85.8a8.7,8.7,0,0,0,1.78,1.35c1,.54.69-.66.57-1.49-.24-1.68-.53-3.35-.82-5,0-.07,0-.17-.13-.16s-.07,0-.1.07Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_33 camera_selected camera" transform="translate(433.14 245.36) rotate(83.68)">33</text>
+</a>
+<!-- 32 -->
+<a href="/en/streetview-32.html">
+<rect class="camera_selected camera cls-1 camera_32" height="6.96" transform="translate(304.18 -383.68) rotate(49.99)" width="6.96" x="564.82" y="338.95"></rect>
+<path class="camera_selected cls-2 camera_32 camera" d="M571.32,336.29c-.05.73-.07,1.46-.13,2.19,0,.4-.09.8-.15,1.2a1.44,1.44,0,0,0-.07.5c0,.16.21.13.35.15s.49.05.73.1l1.15.2a9.23,9.23,0,0,0,2.23.13c1.11-.1.2-.93-.35-1.56-1.13-1.26-2.31-2.49-3.47-3.72-.06-.05-.14-.11-.2-.06a.14.14,0,0,0,0,.11C571.35,335.78,571.33,336,571.32,336.29Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_32 camera_selected camera" transform="translate(404.43 270.64) rotate(49.99)">32</text>
+</a>
+<!-- 31 -->
+<a href="/en/streetview-31.html">
+<rect class="camera_selected camera_31 cls-1 camera" height="6.96" transform="translate(971.01 -43.52) rotate(133.31)" width="6.96" x="556.7" y="254.39"></rect>
+<path class="camera_selected camera_31 cls-2 camera" d="M566.62,260.15c-.73,0-1.46.1-2.19.13-.4,0-.81,0-1.21,0-.12,0-.39-.07-.5,0s-.1.22-.11.36,0,.5,0,.74-.05.77-.07,1.16a9.23,9.23,0,0,0,.13,2.23c.23,1.1,1,.1,1.5-.53,1.13-1.27,2.21-2.57,3.3-3.88,0,0,.09-.14,0-.19a.14.14,0,0,0-.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_31 camera_selected camera" transform="translate(399.92 184.32) rotate(133.31)">31</text>
+</a>
+<!-- 30 -->
+<a href="/en/streetview-30.html">
+<rect class="camera_selected cls-1 camera_30 camera" height="6.96" transform="translate(917.33 -132.8) rotate(141.23)" width="6.96" x="546.65" y="155.19"></rect>
+<path class="camera_selected cls-2 camera_30 camera" d="M556.19,161.82c-.73-.06-1.46-.1-2.19-.18-.4,0-.79-.11-1.19-.17a1.26,1.26,0,0,0-.5-.09c-.16.06-.13.21-.16.35s-.06.49-.11.73-.15.76-.22,1.14a8.82,8.82,0,0,0-.19,2.23c.08,1.12.93.23,1.57-.32,1.29-1.1,2.54-2.25,3.79-3.39.06-.05.12-.13.07-.19a.14.14,0,0,0-.11,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_30 camera" transform="translate(390.3 85.23) rotate(141.23)">30</text>
+</a>
+<!-- 29 -->
+<a href="/en/streetview-29.html">
+<rect class="camera_selected cls-1 camera_29 camera" height="6.96" transform="matrix(0, 1, -1, 0, 493.25, -445.52)" width="6.96" x="510.89" y="135.89"></rect>
+<path class="camera_selected cls-2 camera_29 camera" d="M520.63,136.61c-.51.53-1,1.08-1.51,1.6-.28.28-.59.55-.89.82-.09.08-.33.22-.37.34s.08.23.17.34.34.35.5.54.49.6.75.89a8.77,8.77,0,0,0,1.62,1.54c.91.65.75-.58.73-1.42,0-1.69-.16-3.38-.26-5.08,0-.07,0-.17-.1-.17s-.08,0-.11.06Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_29 camera" transform="translate(351.94 65.9) rotate(90.07)">29</text>
+</a>
+<!-- 28 -->
+<a href="/en/streetview-28.html">
+<rect class="camera_selected cls-1 camera_28 camera" height="6.96" transform="translate(751.39 -296.07) rotate(125.57)" width="6.96" x="510.7" y="118.44"></rect>
+<path class="camera_selected cls-2 camera_28 camera" d="M520.87,123.31c-.72.14-1.43.3-2.15.43q-.6.09-1.2.15a1.38,1.38,0,0,0-.5.06c-.14.09-.07.23-.06.37s.07.49.09.74l.09,1.15a9.12,9.12,0,0,0,.43,2.2c.37,1.06.95,0,1.42-.73.94-1.41,1.84-2.85,2.74-4.29,0-.06.07-.15,0-.2s-.08,0-.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_28 camera" transform="translate(353.49 48.27) rotate(125.57)">28</text>
+</a>
+<!-- 27 -->
+<a href="/en/streetview-27.html">
+<rect class="camera_selected camera_27 cls-1 camera" height="6.96" transform="translate(157.85 -397.36) rotate(57.54)" width="6.96" x="453.48" y="123.6"></rect>
+<path class="camera_selected camera_27 cls-2 camera" d="M460.76,121.39c-.14.72-.26,1.45-.41,2.16-.09.4-.2.78-.31,1.17a1.51,1.51,0,0,0-.14.49c0,.16.2.15.33.19l.71.19,1.11.35a9.74,9.74,0,0,0,2.2.43c1.12,0,.32-.9-.15-1.59-1-1.41-2-2.77-3-4.15,0-.06-.11-.13-.18-.09s-.05.07-.06.11Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_27 camera_selected camera" transform="matrix(0.54, 0.84, -0.84, 0.54, 293.34, 54.91)">27</text>
+</a>
+<!-- 26 -->
+<a href="/en/streetview-26.html">
+<rect class="camera_selected camera_26 cls-1 camera" height="6.96" transform="translate(658.01 -90.96) rotate(147.76)" width="6.96" x="408.99" y="104.74"></rect>
+<path class="camera_selected cls-2 camera_26 camera" d="M418.14,112c-.72-.14-1.44-.26-2.16-.42-.39-.08-.78-.2-1.16-.31a1.81,1.81,0,0,0-.49-.14c-.16,0-.15.2-.2.33s-.11.48-.19.71-.24.74-.35,1.11a9.15,9.15,0,0,0-.44,2.19c0,1.12.9.33,1.59-.13,1.41-.95,2.78-1.95,4.16-2.94.06,0,.13-.11.09-.18s-.07-.05-.11-.06Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_26 camera_selected camera" transform="matrix(-0.85, 0.53, -0.53, -0.85, 252.9, 34.93)">26</text>
+</a>
+<!-- 25 -->
+<a href="/en/streetview-25.html">
+<rect class="camera_25 cls-1 camera_selected camera" height="6.96" transform="translate(366.97 -396.83) rotate(92.95)" width="6.96" x="415.42" y="84.19"></rect>
+<path class="camera_25 cls-2 camera_selected camera" d="M425.29,85.23c-.53.51-1.05,1-1.59,1.52-.3.27-.61.52-.93.77-.09.08-.34.21-.39.32s.07.24.16.35.32.37.47.57l.7.93a9.45,9.45,0,0,0,1.54,1.62c.88.69.79-.55.8-1.38,0-1.7,0-3.39,0-5.09,0-.07,0-.17-.09-.18s-.09,0-.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="camera_25 camera_selected cls-3 camera" transform="translate(256.57 14.22) rotate(92.95)">25</text>
+</a>
+<!-- 24 -->
+<a href="/en/streetview-24.html">
+<rect class="camera_selected cls-1 camera_24 camera" height="6.96" transform="translate(281.49 -365.21) rotate(85.91)" width="6.96" x="375.96" y="86.91"></rect>
+<path class="camera_selected cls-2 camera_24 camera" d="M385.49,87.19c-.47.57-.91,1.15-1.39,1.7-.27.31-.55.59-.83.88-.08.09-.31.25-.35.37s.1.22.2.32.36.33.54.51.53.56.81.83a8.67,8.67,0,0,0,1.72,1.42c1,.58.72-.63.63-1.47-.17-1.68-.4-3.36-.62-5,0-.08-.05-.17-.12-.17a.15.15,0,0,0-.11.07Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_24 camera" transform="matrix(0.07, 1, -1, 0.07, 216.78, 17.21)">24</text>
+</a>
+<!-- 34 -->
+<a href="/en/streetview-34.html">
+<rect class="camera_selected camera_34 cls-1 camera" height="6.96" transform="translate(-20.44 -241.62) rotate(17.98)" width="6.96" x="607" y="355.39"></rect>
+<path class="camera_selected cls-2 camera_34 camera" d="M609.79,352.06c.35.64.72,1.27,1.06,1.93.18.35.34.72.5,1.09,0,.12.11.39.21.46s.25,0,.38-.06.44-.21.67-.3l1.07-.44a9.16,9.16,0,0,0,2-1.07c.89-.67-.32-.9-1.13-1.13-1.62-.48-3.27-.89-4.91-1.32-.07,0-.17,0-.2,0a.18.18,0,0,0,0,.12Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_34 camera_selected camera" transform="translate(446.45 288.71) rotate(17.98)">34</text>
+</a>
+<!-- 37 -->
+<a href="/en/streetview-37.html">
+<rect class="camera_selected cls-1 camera_37 camera" height="6.96" transform="translate(388.96 1103.47) rotate(-131.28)" width="6.96" x="537.34" y="459.08"></rect>
+<path class="camera_selected cls-2 camera_37 camera" d="M537.93,468.76c0-.73,0-1.46.08-2.19,0-.41.08-.81.13-1.21a1.71,1.71,0,0,0,.06-.5c-.06-.15-.22-.12-.36-.14s-.49,0-.73-.08l-1.15-.17a9.33,9.33,0,0,0-2.24-.09c-1.11.12-.18.94.39,1.55,1.16,1.24,2.36,2.44,3.55,3.64.05.06.14.11.2.07s0-.08,0-.12C537.91,469.27,537.93,469,537.93,468.76Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_37 camera" transform="translate(382.6 393.01) rotate(-131.28)">37</text>
+</a>
+<!-- 36 -->
+<a href="/en/streetview-36.html">
+<rect class="camera_selected camera_36 cls-1 camera" height="6.96" transform="translate(737.95 1018.42) rotate(-146.88)" width="6.96" x="607.95" y="407.4"></rect>
+<path class="cls-2 camera_36 camera_selected camera" d="M610.32,417.63c-.17-.71-.36-1.42-.52-2.13-.08-.4-.14-.8-.2-1.19,0-.13,0-.4-.08-.5s-.24-.06-.38,0-.48.09-.72.12-.77.08-1.16.14a9.39,9.39,0,0,0-2.17.51c-1,.42.07,1,.79,1.39,1.45.89,2.92,1.72,4.4,2.56.06,0,.16.07.2,0a.15.15,0,0,0,0-.13C610.44,418.12,610.38,417.88,610.32,417.63Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_36 camera_selected camera" transform="translate(453.39 340.52) rotate(-146.88)">36</text>
+</a>
+<!-- 35 -->
+<a href="/en/streetview-35.html">
+<rect class="camera_selected cls-1 camera_35 camera" height="6.96" transform="translate(1000.32 796.47) rotate(-167.03)" width="6.96" x="626.48" y="364.1"></rect>
+<path class="camera_selected cls-2 camera_35 camera" d="M631.25,374.3c-.41-.61-.83-1.21-1.22-1.83-.22-.34-.41-.7-.61-1.05-.06-.11-.14-.37-.24-.44s-.25,0-.37.09-.42.26-.64.37-.7.34-1,.53a9.23,9.23,0,0,0-1.86,1.23c-.83.75.4.87,1.22,1,1.66.33,3.34.61,5,.89.07,0,.17,0,.19-.07a.18.18,0,0,0,0-.12Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_35 camera" transform="matrix(-0.97, -0.22, 0.22, -0.97, 471.78, 296.14)">35</text>
+</a>
+<!-- 38 -->
+<a href="/en/streetview-38.html">
+<rect class="camera_selected camera cls-1 camera_38" height="6.96" transform="translate(401.33 904.55) rotate(-122)" width="6.96" x="548" y="328.27"></rect>
+<path class="camera_selected cls-2 camera camera_38" d="M547.63,337.41c.14-.72.27-1.44.43-2.16.09-.39.2-.78.32-1.16a1.81,1.81,0,0,0,.14-.49c0-.16-.2-.15-.33-.2l-.71-.19c-.37-.12-.74-.25-1.11-.36a8.6,8.6,0,0,0-2.19-.44c-1.12-.06-.33.89.13,1.59,1,1.41,1.94,2.78,2.92,4.16,0,.07.12.13.18.1s.05-.07.06-.11C547.53,337.9,547.58,337.65,547.63,337.41Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera camera_selected camera_38" transform="translate(393.03 262.64) rotate(-122)">38</text>
+</a>
+<!-- 39 -->
+<a href="/en/streetview-39.html">
+<rect class="camera_selected cls-1 camera_39 camera" height="6.96" transform="translate(-155.7 651.53) rotate(-67.78)" width="6.96" x="536.76" y="353.64"></rect>
+<path class="camera_selected cls-2 camera_39 camera" d="M533.4,357.31c.67-.31,1.33-.63,2-.91.37-.16.75-.29,1.13-.43a1.52,1.52,0,0,0,.48-.17c.11-.12,0-.25,0-.38s-.19-.46-.26-.69-.23-.74-.36-1.11a8.85,8.85,0,0,0-.92-2c-.6-.95-.92.25-1.21,1-.59,1.59-1.13,3.2-1.68,4.81,0,.07,0,.16,0,.2a.15.15,0,0,0,.13,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_39 camera" transform="matrix(0.38, -0.93, 0.93, 0.38, 379.46, 289.47)">39</text>
+</a>
+<!-- 40 -->
+<a href="/en/streetview-40.html">
+<rect class="camera_selected cls-1 camera_40 camera" height="6.96" transform="translate(285.78 955) rotate(-118.31)" width="6.96" x="526.18" y="375.95"></rect>
+<path class="camera_selected cls-2 camera_40 camera" d="M525.45,384.82c.19-.7.36-1.42.57-2.12q.18-.57.39-1.14c.05-.12.19-.35.17-.48s-.18-.16-.31-.21-.47-.15-.7-.24-.72-.3-1.08-.43a9,9,0,0,0-2.16-.59c-1.11-.13-.39.88,0,1.6.85,1.47,1.75,2.9,2.65,4.35,0,.06.1.13.17.1a.14.14,0,0,0,.07-.11C525.32,385.31,525.39,385.07,525.45,384.82Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_40 camera" transform="translate(371.12 310.47) rotate(-118.31)">40</text>
+</a>
+<!-- 41 -->
+<a href="/en/streetview-41.html">
+<rect class="camera_selected camera_41 cls-1 camera" height="6.96" transform="translate(19.18 894.91) rotate(-100.67)" width="6.96" x="486.97" y="404.58"></rect>
+<path class="camera_selected cls-2 camera_41 camera" d="M484.81,411.93c.4-.61.78-1.24,1.19-1.85.22-.33.47-.65.72-1,.07-.1.28-.28.3-.4s-.12-.21-.23-.3-.4-.29-.59-.44l-.9-.74a9.56,9.56,0,0,0-1.88-1.21c-1-.46-.64.71-.46,1.53.37,1.66.79,3.3,1.2,4.94,0,.07.06.16.14.15s.07,0,.09-.08C484.54,412.36,484.68,412.14,484.81,411.93Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_41 camera_selected camera" transform="translate(331.28 339.81) rotate(-100.67)">41</text>
+</a>
+<!-- 42 -->
+<a href="/en/streetview-42.html">
+<rect class="camera_selected camera_42 cls-1 camera" height="6.96" transform="translate(-170.16 776.57) rotate(-87.11)" width="6.96" x="437.54" y="424.93"></rect>
+<path class="camera_selected camera_42 cls-2 camera" d="M434.63,430.85c.53-.51,1-1,1.58-1.52q.45-.4.93-.78c.1-.08.34-.2.39-.32s-.07-.23-.16-.35-.32-.37-.47-.56l-.7-.93a9.1,9.1,0,0,0-1.54-1.62c-.89-.69-.79.55-.8,1.38,0,1.7,0,3.39,0,5.09,0,.07,0,.17.1.18s.08,0,.11-.05Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_42 camera_selected camera" transform="translate(281.24 360.41) rotate(-87.11)">42</text>
+</a>
+<!-- 43 -->
+<a href="/en/streetview-43.html">
+<rect class="camera_selected cls-1 camera_43 camera" height="6.96" transform="translate(-303.04 620.15) rotate(-72.84)" width="6.96" x="393.73" y="438.17"></rect>
+<path class="camera_selected cls-2 camera_43 camera" d="M390.41,442.43c.64-.36,1.27-.74,1.92-1.08.35-.19.72-.36,1.08-.52.12-.05.39-.12.46-.22s0-.24-.06-.37-.22-.44-.32-.67L393,438.5a9.14,9.14,0,0,0-1.1-1.95c-.68-.88-.89.34-1.12,1.14-.45,1.64-.84,3.29-1.24,4.93,0,.08,0,.18.05.2a.13.13,0,0,0,.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_43 camera_selected camera" transform="matrix(0.3, -0.96, 0.96, 0.3, 236.7, 373.99)">43</text>
+</a>
+<!-- 44 -->
+<a href="/en/streetview-44.html">
+<rect class="camera_44 cls-1 camera_selected camera" height="6.96" transform="translate(426.08 701.36) rotate(-149.23)" width="6.96" x="396.31" y="301.76"></rect>
+<path class="camera_44 cls-2 camera_selected camera" d="M399,312c-.2-.71-.42-1.41-.6-2.12-.1-.39-.18-.78-.25-1.18,0-.12,0-.4-.1-.49s-.24-.05-.38,0l-.72.15-1.15.19a9,9,0,0,0-2.15.61c-1,.46.11.95.84,1.35,1.49.83,3,1.6,4.5,2.37.07,0,.17.07.21,0a.17.17,0,0,0,0-.12C399.09,312.51,399,312.27,399,312Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_44 camera" transform="translate(241.72 234.73) rotate(-149.23)">44</text>
+</a>
+<!-- 45 -->
+<a href="/en/streetview-45.html">
+<rect class="camera_selected cls-1 camera_45 camera" height="6.96" transform="translate(162.98 697.67) rotate(-120.79)" width="6.96" x="376.85" y="288.63"></rect>
+<path class="camera_selected cls-2 camera_45 camera" d="M376.36,297.68c.16-.72.3-1.44.48-2.15.1-.39.22-.77.34-1.16a1.41,1.41,0,0,0,.15-.48c0-.16-.19-.16-.32-.2s-.48-.13-.71-.21l-1.1-.38a9.08,9.08,0,0,0-2.18-.5c-1.12-.08-.35.89.1,1.6.91,1.43,1.87,2.82,2.83,4.23,0,.06.11.13.17.09a.14.14,0,0,0,.07-.1C376.25,298.17,376.31,297.92,376.36,297.68Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_45 camera" transform="matrix(-0.51, -0.86, 0.86, -0.51, 221.78, 223)">45</text>
+</a>
+<!-- 46 -->
+<a href="/en/streetview-46.html">
+<rect class="camera_selected camera_46 cls-1 camera" height="6.96" transform="translate(-40.2 581.08) rotate(-92.75)" width="6.96" x="367.53" y="264.81"></rect>
+<path class="camera_selected cls-2 camera_46 camera" d="M364.89,271.34c.48-.56.94-1.13,1.43-1.67.27-.3.56-.58.85-.86.09-.09.32-.24.36-.36s-.1-.23-.19-.33-.36-.34-.53-.52-.52-.57-.79-.85a9.05,9.05,0,0,0-1.69-1.46c-.95-.6-.73.62-.67,1.45.14,1.69.33,3.38.51,5.07,0,.07,0,.16.12.17s.07,0,.1-.07Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_46 camera_selected camera" transform="translate(211.49 200.22) rotate(-92.75)">46</text>
+</a>
+<!-- 47 -->
+<a href="/en/streetview-47.html">
+<rect class="camera_selected camera_47 cls-1 camera" height="6.96" transform="matrix(0.15, -0.99, 0.99, 0.15, -64.17, 501.26)" width="6.96" x="378.25" y="226.03"></rect>
+<path class="camera_selected camera_47 cls-2 camera" d="M375.12,231.28c.58-.45,1.15-.91,1.73-1.35.33-.24.67-.46,1-.68.11-.06.37-.16.43-.27s0-.24-.12-.37-.29-.4-.41-.61-.4-.66-.61-1a9.41,9.41,0,0,0-1.37-1.77c-.81-.77-.84.46-.94,1.29-.2,1.69-.35,3.38-.51,5.07,0,.07,0,.17.08.18a.15.15,0,0,0,.12,0Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_47 camera_selected camera" transform="translate(221.71 161.68) rotate(-81.26)">47</text>
+</a>
+<!-- 48 -->
+<a href="/en/streetview-48.html">
+<rect class="camera_selected camera_48 cls-1 camera" height="6.96" transform="translate(-216.22 136.12) rotate(-27.44)" width="6.96" x="392.37" y="212.88"></rect>
+<path class="cls-2 camera_48 camera_selected camera" d="M390.51,212.07c.71.2,1.42.38,2.12.6.38.12.76.26,1.13.41.12,0,.36.19.48.18s.17-.18.22-.31.16-.47.25-.7l.45-1.07a9.08,9.08,0,0,0,.61-2.15c.15-1.11-.86-.4-1.59,0-1.48.83-2.93,1.71-4.39,2.58-.06,0-.14.11-.11.17a.16.16,0,0,0,.11.07Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_48 camera_selected camera" transform="matrix(0.89, -0.46, 0.46, 0.89, 233.04, 148.17)">48</text>
+</a>
+<!-- 49 -->
+<a href="/en/streetview-49.html">
+<rect class="camera_selected cls-1 camera_49 camera" height="6.96" transform="translate(168.81 -320.86) rotate(49.91)" width="6.96" x="430.3" y="225.89"></rect>
+<path class="camera_selected cls-2 camera_49 camera" d="M436.79,223.23c0,.73-.07,1.46-.13,2.19,0,.4-.09.8-.15,1.2,0,.12-.11.39-.06.5s.21.13.35.15.49,0,.73.09l1.14.2a9.3,9.3,0,0,0,2.23.14c1.12-.1.21-.94-.35-1.56-1.13-1.27-2.3-2.49-3.47-3.72-.05,0-.14-.11-.2-.06a.14.14,0,0,0,0,.11C436.82,222.72,436.8,223,436.79,223.23Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_49 camera" transform="translate(269.89 157.56) rotate(49.91)">49</text>
+</a>
+<!-- 50 -->
+<a href="/en/streetview-50.html">
+<rect class="camera_selected cls-1 camera_50 camera" height="6.96" transform="translate(582.2 -242.69) rotate(93.02)" width="6.96" x="449.74" y="263.05"></rect>
+<path class="camera_selected cls-2 camera_50 camera" d="M459.62,264.1c-.53.51-1.05,1-1.59,1.52-.3.27-.62.52-.93.77-.1.08-.35.21-.39.32s.06.24.15.35.32.37.47.57l.7.93a9.45,9.45,0,0,0,1.54,1.62c.88.69.79-.55.81-1.38,0-1.7,0-3.39,0-5.09,0-.07,0-.17-.1-.18a.17.17,0,0,0-.11.06Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_50 camera" transform="matrix(-0.05, 1, -1, -0.05, 290.83, 193.13)">50</text>
+</a>
+<!-- 51 -->
+<a href="/en/streetview-51.html">
+<rect class="camera_selected cls-1 camera_51 camera" height="6.96" transform="translate(724.99 525.65) rotate(179.87)" width="6.96" x="439.21" y="295.18"></rect>
+<path class="camera_selected cls-2 camera_51 camera" d="M445.46,304.91c-.54-.5-1.08-1-1.6-1.5-.29-.28-.56-.58-.83-.88-.08-.1-.22-.34-.34-.38s-.23.08-.34.18-.35.34-.54.5l-.89.75a9.39,9.39,0,0,0-1.53,1.62c-.64.92.59.76,1.42.73,1.7-.06,3.39-.17,5.08-.28.08,0,.17,0,.18-.1a.15.15,0,0,0-.07-.11C445.83,305.26,445.64,305.09,445.46,304.91Z" transform="translate(-161.06 -70.67)"></path>
+<text class="cls-3 camera_selected camera_51 camera" transform="translate(284.36 226.54) rotate(179.87)">51</text>
+</a>
+</svg>
+</div>
+<script>
+                                $(function () {
+                                    $('#leo_nav_toggle').on('click', function () {
+                                        $('#leo_nav_svg').slideToggle('fast', function () {
+                                            if ($('#leo_nav_svg').is(':visible')) {
+                                                $('#showoverview').addClass('hidden');
+                                                $('#hideoverview').removeClass('hidden');
+                                            } else {
+                                                $('#showoverview').removeClass('hidden');
+                                                $('#hideoverview').addClass('hidden');
+                                            }
+                                        });
+                                    });
+                                });</script>
+</div>
+</div>
+<div class="object_svg" heigth="1000px" id="object_svg" style="position: absolute; top: 0; z-index: 30" width="1000px"></div>
+
+<div class="next_image" id="camera_image1" style="width: 100%;  position: absolute; top: 0;">
+<svg viewbox="0 0 1749.38 1736.6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs></defs>
+<title>18</title>
+
+
+<g id="Bilder">
+<image data-name="018" height="3840" id="_018" transform="translate(0 0) scale(0.3)" width="5760" xlink:href="/media/filer_public_thumbnails/filer_public/f9/4c/f94c745f-a23f-450f-9ab7-d26fcf5675e7/018_f3a9255-19.jpg__2000x2000_q85_subsampling-2.jpg"/>
+</g><g id="Objektrahmen">
+<g data-name="011-Wissensexplosion" id="_011-Wissensexplosion"></g>
+<polygon class="cls-1" data-name="018-17. Leonardo Verkündigung" id="_018-17._Leonardo_Verkündigung" onclick="window.open('/showBook/17')" points="667.89 644.21 667.89 861.75 1071.2 884.3 1071.2 601.89 667.89 644.21" transform="translate(-2.59 -285.76)"></polygon>
+<polygon class="cls-1" data-name="018-19. Holbein Kaufmann" id="_018-19._Holbein_Kaufmann" onclick="window.open('/showBook/19')" points="297.53 530.54 424.28 499.62 440.76 499.62 447.98 973.63 432.52 973.63 297.53 949.93 297.53 530.54" transform="translate(-2.59 -285.76)"></polygon>
+<g data-name="026-Wissensexplosion" id="_026-Wissensexplosion"></g>
+<g data-name="028-12--Codices" id="_028-12--Codices"></g>
+</g><g data-name="011-Wissensexplosion" id="_011-Wissensexplosion"></g><g data-name="026-Wissensexplosion" id="_026-Wissensexplosion"></g><g data-name="028-12--Codices" id="_028-12--Codices"></g></svg>
+</div>
+<div style="top: 100px; z-index: 100">
+<span aria-hidden="true" class="carousel-control-next-icon"></span>
+<span style="color: whitesmoke"></span>
+</div>
+</div>
+
+<div class="leo_image_preview_right" id="leo_preview_streetview"><div class="container-fluid leo_streetview_carousel">
+<div class="carousel slide" data-interval="100000" data-keyboard="true" data-ride="carousel" id="leo_preview_carousel">
+<div class="carousel-inner w-100 mx-auto" role="listbox">
+<div class="carousel-item leo_preview_streetviewX active"> <div class="leo_thumb_buchtitel" onclick='location.href="/en/div-classleo_title_authorleonardo-da-vincidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dverkundigung-an-mariapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dca-14721475pdiv/";'><img src="/static/LeonardoHTML/images/Logo-rot.png" width="10px"/>17. <div class="leo_title_author">Leonardo da Vinci. The Annunciation</div>
+<div class="leo_title_title"><span lang="en-US">ca. 1472–1475</span></div></div><div class="leo_thumb_img"><a href="/en/div-classleo_title_authorleonardo-da-vincidivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dverkundigung-an-mariapdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_dca-14721475pdiv/"><img src="/media/filer_public_thumbnails/filer_public/2c/85/2c859a12-6c10-48c1-8962-3cfa520bf554/017_leonardo_verkuendigung_an_maria_uffizi.png__400x400_q85_subsampling-2.png"/></a></div> </div>
+<div class="carousel-item leo_preview_streetviewX"> <div class="leo_thumb_buchtitel" onclick='location.href="/en/div-classleo_title_authorhans-holbein-d-jdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dder-kaufmann-georg-giszepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d1532pdiv/";'><img src="/static/LeonardoHTML/images/Logo-gelb.png" width="10px"/>19. <div class="leo_title_author">Hans Holbein the Younger.</div>
+<div class="leo_title_title">
+<p class="INGLESE_Catalogo_Titolo_ENG"><em>Portrait of Georg Gisze</em></p>
+<p class="INGLESE_Catalogo_Dati_Tec_ENG">1532</p>
+</div></div><div class="leo_thumb_img"><a href="/en/div-classleo_title_authorhans-holbein-d-jdivdiv-classleo_title_titlep-classtedesco_catalogo_titolo_dder-kaufmann-georg-giszepdivdiv-classleo_title_dateplacep-classtedesco_catalogo_dati_tec_d1532pdiv/"><img src="/media/filer_public_thumbnails/filer_public/51/b1/51b16bc4-e7ff-405d-b12a-9afd1d4510a2/019_holbein_kaufmann_georg_gisze_586_7750x8796_64mb_gemaldegalerie_smb.png__400x400_q85_subsampling-2.png"/></a></div> </div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="leo_footer">
+<ul class="leo_footer_links">
+<li>
+<a href="/sitemap">Sitemap</a>
+</li>
+<li>
+<a href="/impressum">Impressum/Copyright/Datenschutz</a>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
