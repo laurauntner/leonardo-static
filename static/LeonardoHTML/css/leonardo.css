@@ -638,7 +638,6 @@ div#leo_main_section_text{
     padding-top: 1em;
 }
 
-
 div.leo_main_object_metadata{
     font-size: 10px;
     width: 600px;
@@ -1177,6 +1176,10 @@ div#leo_image_and_objects_right{
 }
 
 .standard_bg {
+    background-color:#f2f4e7;
+}
+
+html {
     background-color:#f2f4e7;
 }
 /*
