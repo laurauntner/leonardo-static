@@ -591,6 +591,7 @@ ul.leo_main_section_objectlist{
    
 }
 li.leo_main_section_item{
+    list-style-type: none;
      font-family: montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16pt;
      padding-bottom: 10px;
