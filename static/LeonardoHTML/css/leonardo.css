@@ -1318,3 +1318,36 @@ Attribution required
 .css-carousel .carousel-indicators label.active { background: #fff; opacity: 1; } /* aktiv */
 
 
+
+
+
+
+
+/* --- Layout-Grundlage: Container als Spalte, Footer ans Ende drücken --- */
+html, body { height: 100%; }
+.leo_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hauptinhalt darf wachsen, damit Footer unten bleibt */
+.standard_bg.leo_main { 
+  flex: 1 0 auto; 
+}
+
+/* --- Footer entfloaten + stabilisieren (überschreibt doppelte Alt-Regeln) --- */
+div.leo_container > div.leo_footer {
+  float: none !important;   /* entkoppelt vom Float-Flow */
+  clear: both !important;   /* falls irgendwo noch Floats offen sind */
+  display: block !important;
+  width: 100% !important;
+  margin-top: auto;         /* Flex: schiebt Footer ans untere Ende */
+}
+
+/*  Eltern-BFCs, falls einzelne Seiten noch Alt-Floats haben */
+.leo_header,
+.standard_bg,
+.leo_main { 
+  display: flow-root;     
+}
